@@ -1,0 +1,10 @@
+vsync = true
+maximized = false
+srgb = true
+idle = false
+no-multigrid = true
+neovim_bin = "~/.local/share/bob/nvim-bin/nvim"
+frame = "full"
+[font]
+normal = [ "JetBrainsMono Nerd Font" ]
+size = 16

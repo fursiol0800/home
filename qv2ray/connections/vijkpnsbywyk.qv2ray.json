@@ -1,0 +1,40 @@
+{
+    "outbounds": [
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "svr4.digitalhubmm.xyz",
+                        "port": 6666,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "id": "a62125ae-b143-47e1-81ed-15880e48114f"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "grpcSettings": {
+                    "serviceName": "svr4.digitalhubmm.xyz"
+                },
+                "network": "grpc",
+                "security": "tls",
+                "tlsSettings": {
+                    "alpn": [
+                        "h3",
+                        "h2",
+                        "http/1.1"
+                    ],
+                    "disableSystemRoot": false,
+                    "serverName": "svr4.digitalhubmm.xyz"
+                },
+                "xtlsSettings": {
+                    "disableSystemRoot": false
+                }
+            }
+        }
+    ]
+}

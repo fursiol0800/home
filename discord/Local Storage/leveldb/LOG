@@ -1,0 +1,8 @@
+2024/11/02-12:34:03.609 d6fb Creating DB /home/antonio/.config/discord/Local Storage/leveldb since it was missing.
+2024/11/02-12:34:03.633 d6fb Reusing MANIFEST /home/antonio/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/11/02-12:46:20.052 d6fb Level-0 table #5: started
+2024/11/02-12:46:20.144 d6fb Level-0 table #5: 843964 bytes OK
+2024/11/02-12:46:20.152 d6fb Delete type=0 #3
+2024/11/02-12:47:11.701 d6fc Level-0 table #7: started
+2024/11/02-12:47:11.812 d6fc Level-0 table #7: 2426336 bytes OK
+2024/11/02-12:47:11.830 d6fc Delete type=0 #4

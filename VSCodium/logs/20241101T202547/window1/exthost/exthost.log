@@ -1,0 +1,4 @@
+2024-11-01 20:25:50.810 [info] Extension host with pid 41971 started
+2024-11-01 20:25:50.954 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-01 20:25:51.029 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-01 20:25:51.030 [info] Extension host with pid 41971 exiting with code 0

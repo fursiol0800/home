@@ -1,0 +1,38 @@
+2024-11-01 20:02:33.691 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-01 20:02:34.095 [info] Started local extension host with pid 9675.
+2024-11-01 20:02:34.333 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at $rs.getElementLocation (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:405:10495)
+    at $rs.rerender (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:405:8594)
+    at tUe.rerender (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:405:18374)
+    at oS.refreshSingleElement (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:67126)
+    at oS.renderTree (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:66910)
+    at vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:65983
+    at Set.forEach (<anonymous>)
+    at oS.updateElementsByKey (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:65967)
+    at MJ.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1338:43716)
+    at E._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:896)
+    at E.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:1216)
+    at hLs.updateRestrictedSettings (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:63475)
+    at hLs.onDefaultConfigurationChanged (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:59932)
+    at MJ.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:46672)
+    at E._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:896)
+    at E.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:1216)
+    at Jye.onDidUpdateConfiguration (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:3589)
+    at Jye.onDidUpdateConfiguration (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:21891)
+    at MJ.value (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:3303)
+    at E._deliver (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:896)
+    at E._deliverQueue (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:987)
+    at E.fire (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:1323)
+    at Zvi.deltaConfiguration (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:52:30225)
+    at MWi._handler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:664:3928)
+    at MWi._handle (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:479:71227)
+    at MWi.acceptUsers (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:479:71131)
+    at Mnt._handleExtensionPoint (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3121:7231)
+    at Hnt._doHandleExtensionPoints (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3121:6016)
+    at Hnt._processExtensions (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:18008)
+    at Hnt._initialize (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:16720)
+2024-11-01 20:02:35.059 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-01 20:02:35.776 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-01 20:02:36.679 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-01 20:02:39.505 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-01 20:02:40.170 [info] [perf] Render performance baseline is 228ms

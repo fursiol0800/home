@@ -1,0 +1,8 @@
+[2024-Nov-02 12:35:40.816 +06:30][55641:55641][info ] Logging initialized
+[2024-Nov-02 12:35:40.816 +06:30][55641:55641][info ] Initializing krisp SDK...
+[2024-Nov-02 12:35:40.816 +06:30][55641:55641][info ] DoKrispInitialize
+[2024-Nov-02 12:35:41.369 +06:30][55641:55641][info ] LoadDynamicKrisp
+[2024-Nov-02 12:35:41.370 +06:30][55641:55641][info ] Did not find KRISP_DYLIB_PATH, skipping dynamic loading
+[2024-Nov-02 12:35:41.370 +06:30][55641:55641][info ] Initializing Krisp SDK in PID 55641, addr 0x7293c23907a0
+[2024-Nov-02 12:35:41.692 +06:30][55641:55641][info ] Initialized Krisp SDK successfully
+[2024-Nov-02 12:35:41.692 +06:30][55641:55641][info ] Krisp SDK initialized

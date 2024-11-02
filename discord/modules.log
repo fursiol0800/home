@@ -1,0 +1,721 @@
+2024-11-02T06:04:03.621Z [Modules] Modules initializing
+2024-11-02T06:04:03.622Z [Modules] Distribution: remote
+2024-11-02T06:04:03.622Z [Modules] Host updates: enabled
+2024-11-02T06:04:03.622Z [Modules] Module updates: enabled
+2024-11-02T06:04:03.622Z [Modules] Module install path: /home/antonio/.config/discord/0.0.72/modules
+2024-11-02T06:04:03.622Z [Modules] Module installed file path: /home/antonio/.config/discord/0.0.72/modules/installed.json
+2024-11-02T06:04:03.622Z [Modules] Module download path: /home/antonio/.config/discord/0.0.72/modules/pending
+2024-11-02T06:04:34.107Z [Modules] Bootstrapping...
+2024-11-02T06:04:34.108Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-11-02T06:04:34.110Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-11-02T06:04:34.111Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-11-02T06:04:34.113Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-11-02T06:04:34.114Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-11-02T06:04:34.115Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-11-02T06:04:34.116Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-11-02T06:04:34.117Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-11-02T06:04:34.118Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-11-02T06:04:34.119Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-11-02T06:04:34.119Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-11-02T06:04:34.120Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-11-02T06:04:34.120Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-11-02T06:04:34.121Z [Modules] Checking for host updates.
+2024-11-02T06:04:34.844Z [Modules] Host is up to date.
+2024-11-02T06:04:34.844Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-11-02T06:04:34.922Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-11-02T06:04:34.923Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-11-02T06:04:34.923Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-11-02T06:04:34.923Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-11-02T06:04:34.923Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-11-02T06:04:34.923Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-11-02T06:04:34.924Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-11-02T06:04:34.924Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip
+2024-11-02T06:04:35.606Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 1%
+2024-11-02T06:04:35.627Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 2%
+2024-11-02T06:04:35.664Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 3%
+2024-11-02T06:04:35.680Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 4%
+2024-11-02T06:04:35.701Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 5%
+2024-11-02T06:04:35.707Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 6%
+2024-11-02T06:04:35.715Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 7%
+2024-11-02T06:04:35.729Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 8%
+2024-11-02T06:04:35.734Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 9%
+2024-11-02T06:04:35.747Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 10%
+2024-11-02T06:04:35.752Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 11%
+2024-11-02T06:04:35.757Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 12%
+2024-11-02T06:04:35.765Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 13%
+2024-11-02T06:04:35.768Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 14%
+2024-11-02T06:04:35.775Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 15%
+2024-11-02T06:04:35.779Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 16%
+2024-11-02T06:04:35.781Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 17%
+2024-11-02T06:04:35.788Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 18%
+2024-11-02T06:04:35.790Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 19%
+2024-11-02T06:04:35.796Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 20%
+2024-11-02T06:04:35.801Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 22%
+2024-11-02T06:04:35.806Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 23%
+2024-11-02T06:04:35.811Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 24%
+2024-11-02T06:04:35.815Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 25%
+2024-11-02T06:04:35.816Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 26%
+2024-11-02T06:04:35.820Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 27%
+2024-11-02T06:04:35.822Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 28%
+2024-11-02T06:04:35.826Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 29%
+2024-11-02T06:04:35.829Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 30%
+2024-11-02T06:04:35.833Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 32%
+2024-11-02T06:04:35.840Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 35%
+2024-11-02T06:04:35.842Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 37%
+2024-11-02T06:04:35.847Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 39%
+2024-11-02T06:04:35.851Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 42%
+2024-11-02T06:04:35.854Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 44%
+2024-11-02T06:04:35.858Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 46%
+2024-11-02T06:04:35.860Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 47%
+2024-11-02T06:04:35.862Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 48%
+2024-11-02T06:04:35.863Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 49%
+2024-11-02T06:04:35.866Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 50%
+2024-11-02T06:04:35.869Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 52%
+2024-11-02T06:04:35.873Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 54%
+2024-11-02T06:04:35.875Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 57%
+2024-11-02T06:04:35.878Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 59%
+2024-11-02T06:04:35.882Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 62%
+2024-11-02T06:04:35.884Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 63%
+2024-11-02T06:04:35.888Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 65%
+2024-11-02T06:04:35.890Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 68%
+2024-11-02T06:04:35.891Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 69%
+2024-11-02T06:04:35.894Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 70%
+2024-11-02T06:04:35.898Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 73%
+2024-11-02T06:04:35.900Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 76%
+2024-11-02T06:04:35.902Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 79%
+2024-11-02T06:04:35.908Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 82%
+2024-11-02T06:04:35.909Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 85%
+2024-11-02T06:04:35.911Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 88%
+2024-11-02T06:04:35.914Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 91%
+2024-11-02T06:04:35.915Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 92%
+2024-11-02T06:04:35.918Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 95%
+2024-11-02T06:04:35.920Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 98%
+2024-11-02T06:04:35.921Z [Modules] Streaming discord_desktop_core@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip: 100%
+2024-11-02T06:04:35.923Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-11-02T06:04:35.923Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip
+2024-11-02T06:04:36.350Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 3%
+2024-11-02T06:04:36.353Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 4%
+2024-11-02T06:04:36.356Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 7%
+2024-11-02T06:04:36.360Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 9%
+2024-11-02T06:04:36.366Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 12%
+2024-11-02T06:04:36.369Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 15%
+2024-11-02T06:04:36.371Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 16%
+2024-11-02T06:04:36.372Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 17%
+2024-11-02T06:04:36.375Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 20%
+2024-11-02T06:04:36.378Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 21%
+2024-11-02T06:04:36.382Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 23%
+2024-11-02T06:04:36.384Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 26%
+2024-11-02T06:04:36.388Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 28%
+2024-11-02T06:04:36.389Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 31%
+2024-11-02T06:04:36.392Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 34%
+2024-11-02T06:04:36.396Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 36%
+2024-11-02T06:04:36.400Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 39%
+2024-11-02T06:04:36.404Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 42%
+2024-11-02T06:04:36.408Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 44%
+2024-11-02T06:04:36.415Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 47%
+2024-11-02T06:04:36.420Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 50%
+2024-11-02T06:04:36.421Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 51%
+2024-11-02T06:04:36.423Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 53%
+2024-11-02T06:04:36.426Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 56%
+2024-11-02T06:04:36.428Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 59%
+2024-11-02T06:04:36.431Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 61%
+2024-11-02T06:04:36.432Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 62%
+2024-11-02T06:04:36.435Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 64%
+2024-11-02T06:04:36.439Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 67%
+2024-11-02T06:04:36.443Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 69%
+2024-11-02T06:04:36.446Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 72%
+2024-11-02T06:04:36.449Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 75%
+2024-11-02T06:04:36.454Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 77%
+2024-11-02T06:04:36.457Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 80%
+2024-11-02T06:04:36.460Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 81%
+2024-11-02T06:04:36.463Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 84%
+2024-11-02T06:04:36.465Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 86%
+2024-11-02T06:04:36.469Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 89%
+2024-11-02T06:04:36.473Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 92%
+2024-11-02T06:04:36.475Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 93%
+2024-11-02T06:04:36.479Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 94%
+2024-11-02T06:04:36.480Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 95%
+2024-11-02T06:04:36.481Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 96%
+2024-11-02T06:04:36.483Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 97%
+2024-11-02T06:04:36.484Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 98%
+2024-11-02T06:04:36.485Z [Modules] Streaming discord_erlpack@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip: 100%
+2024-11-02T06:04:36.488Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-11-02T06:04:36.488Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip
+2024-11-02T06:04:37.240Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 1%
+2024-11-02T06:04:37.285Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 2%
+2024-11-02T06:04:37.312Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 3%
+2024-11-02T06:04:37.339Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 4%
+2024-11-02T06:04:37.356Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 5%
+2024-11-02T06:04:37.366Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 6%
+2024-11-02T06:04:37.379Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 7%
+2024-11-02T06:04:37.396Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 8%
+2024-11-02T06:04:37.403Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 9%
+2024-11-02T06:04:37.412Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 10%
+2024-11-02T06:04:37.417Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 11%
+2024-11-02T06:04:37.423Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 12%
+2024-11-02T06:04:37.428Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 13%
+2024-11-02T06:04:37.434Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 14%
+2024-11-02T06:04:37.444Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 15%
+2024-11-02T06:04:37.454Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 16%
+2024-11-02T06:04:37.459Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 17%
+2024-11-02T06:04:37.466Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 18%
+2024-11-02T06:04:37.469Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 19%
+2024-11-02T06:04:37.472Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 20%
+2024-11-02T06:04:37.476Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 21%
+2024-11-02T06:04:37.479Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 22%
+2024-11-02T06:04:37.484Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 23%
+2024-11-02T06:04:37.487Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 24%
+2024-11-02T06:04:37.491Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 25%
+2024-11-02T06:04:37.493Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 26%
+2024-11-02T06:04:37.499Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 27%
+2024-11-02T06:04:37.502Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 28%
+2024-11-02T06:04:37.506Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 29%
+2024-11-02T06:04:37.511Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 30%
+2024-11-02T06:04:37.516Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 31%
+2024-11-02T06:04:37.519Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 32%
+2024-11-02T06:04:37.617Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 33%
+2024-11-02T06:04:37.783Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 34%
+2024-11-02T06:04:37.784Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 35%
+2024-11-02T06:04:37.785Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 36%
+2024-11-02T06:04:37.785Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 37%
+2024-11-02T06:04:37.841Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 38%
+2024-11-02T06:04:37.842Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 39%
+2024-11-02T06:04:37.872Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 40%
+2024-11-02T06:04:37.886Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 41%
+2024-11-02T06:04:38.014Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 42%
+2024-11-02T06:04:38.031Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 43%
+2024-11-02T06:04:38.032Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 44%
+2024-11-02T06:04:38.033Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 45%
+2024-11-02T06:04:38.044Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 46%
+2024-11-02T06:04:38.045Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 47%
+2024-11-02T06:04:38.081Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 48%
+2024-11-02T06:04:38.131Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 49%
+2024-11-02T06:04:38.227Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 50%
+2024-11-02T06:04:38.228Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 51%
+2024-11-02T06:04:38.229Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 52%
+2024-11-02T06:04:38.244Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 53%
+2024-11-02T06:04:38.277Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 54%
+2024-11-02T06:04:38.291Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 55%
+2024-11-02T06:04:38.311Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 56%
+2024-11-02T06:04:38.340Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 57%
+2024-11-02T06:04:38.401Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 58%
+2024-11-02T06:04:38.407Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 59%
+2024-11-02T06:04:38.456Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 60%
+2024-11-02T06:04:38.465Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 61%
+2024-11-02T06:04:38.527Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 62%
+2024-11-02T06:04:38.556Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 63%
+2024-11-02T06:04:38.589Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 64%
+2024-11-02T06:04:38.648Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 65%
+2024-11-02T06:04:38.660Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 66%
+2024-11-02T06:04:38.668Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 67%
+2024-11-02T06:04:38.703Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 68%
+2024-11-02T06:04:38.728Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 69%
+2024-11-02T06:04:38.766Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 70%
+2024-11-02T06:04:38.794Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 71%
+2024-11-02T06:04:38.877Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 72%
+2024-11-02T06:04:38.882Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 73%
+2024-11-02T06:04:38.909Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 74%
+2024-11-02T06:04:38.936Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 75%
+2024-11-02T06:04:38.999Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 76%
+2024-11-02T06:04:39.029Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 77%
+2024-11-02T06:04:39.030Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 78%
+2024-11-02T06:04:39.086Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 79%
+2024-11-02T06:04:39.087Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 80%
+2024-11-02T06:04:39.123Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 81%
+2024-11-02T06:04:39.157Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 82%
+2024-11-02T06:04:39.232Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 83%
+2024-11-02T06:04:39.261Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 84%
+2024-11-02T06:04:39.313Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 85%
+2024-11-02T06:04:39.314Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 86%
+2024-11-02T06:04:39.328Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 87%
+2024-11-02T06:04:39.350Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 88%
+2024-11-02T06:04:39.388Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 89%
+2024-11-02T06:04:39.445Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 90%
+2024-11-02T06:04:39.470Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 91%
+2024-11-02T06:04:39.486Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 92%
+2024-11-02T06:04:39.518Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 93%
+2024-11-02T06:04:39.576Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 94%
+2024-11-02T06:04:39.632Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 95%
+2024-11-02T06:04:39.633Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 96%
+2024-11-02T06:04:39.666Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 97%
+2024-11-02T06:04:39.694Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 98%
+2024-11-02T06:04:39.728Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 99%
+2024-11-02T06:04:39.758Z [Modules] Streaming discord_spellcheck@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip: 100%
+2024-11-02T06:04:39.760Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-11-02T06:04:39.761Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip
+2024-11-02T06:04:40.309Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 1%
+2024-11-02T06:04:40.314Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 2%
+2024-11-02T06:04:40.324Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 3%
+2024-11-02T06:04:40.332Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 4%
+2024-11-02T06:04:40.341Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 5%
+2024-11-02T06:04:40.353Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 6%
+2024-11-02T06:04:40.369Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 7%
+2024-11-02T06:04:40.381Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 8%
+2024-11-02T06:04:40.389Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 9%
+2024-11-02T06:04:40.399Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 10%
+2024-11-02T06:04:40.408Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 11%
+2024-11-02T06:04:40.417Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 12%
+2024-11-02T06:04:40.427Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 13%
+2024-11-02T06:04:40.436Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 14%
+2024-11-02T06:04:40.445Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 15%
+2024-11-02T06:04:40.453Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 16%
+2024-11-02T06:04:40.462Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 17%
+2024-11-02T06:04:40.472Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 18%
+2024-11-02T06:04:40.481Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 19%
+2024-11-02T06:04:40.490Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 20%
+2024-11-02T06:04:40.501Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 21%
+2024-11-02T06:04:40.509Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 22%
+2024-11-02T06:04:40.515Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 23%
+2024-11-02T06:04:40.524Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 24%
+2024-11-02T06:04:40.533Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 25%
+2024-11-02T06:04:40.541Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 26%
+2024-11-02T06:04:40.550Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 27%
+2024-11-02T06:04:40.563Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 28%
+2024-11-02T06:04:40.569Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 29%
+2024-11-02T06:04:40.577Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 30%
+2024-11-02T06:04:40.585Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 31%
+2024-11-02T06:04:40.594Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 32%
+2024-11-02T06:04:40.602Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 33%
+2024-11-02T06:04:40.612Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 34%
+2024-11-02T06:04:40.619Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 35%
+2024-11-02T06:04:40.628Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 36%
+2024-11-02T06:04:40.634Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 37%
+2024-11-02T06:04:40.640Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 38%
+2024-11-02T06:04:40.649Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 39%
+2024-11-02T06:04:40.656Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 40%
+2024-11-02T06:04:40.661Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 41%
+2024-11-02T06:04:40.669Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 42%
+2024-11-02T06:04:40.677Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 43%
+2024-11-02T06:04:40.688Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 44%
+2024-11-02T06:04:40.695Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 45%
+2024-11-02T06:04:40.703Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 46%
+2024-11-02T06:04:40.708Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 47%
+2024-11-02T06:04:40.715Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 48%
+2024-11-02T06:04:40.723Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 49%
+2024-11-02T06:04:40.731Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 50%
+2024-11-02T06:04:40.737Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 51%
+2024-11-02T06:04:40.744Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 52%
+2024-11-02T06:04:40.749Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 53%
+2024-11-02T06:04:40.755Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 54%
+2024-11-02T06:04:40.765Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 55%
+2024-11-02T06:04:40.770Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 56%
+2024-11-02T06:04:40.777Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 57%
+2024-11-02T06:04:40.784Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 58%
+2024-11-02T06:04:40.789Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 59%
+2024-11-02T06:04:40.797Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 60%
+2024-11-02T06:04:40.804Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 61%
+2024-11-02T06:04:40.811Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 62%
+2024-11-02T06:04:40.816Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 63%
+2024-11-02T06:04:40.823Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 64%
+2024-11-02T06:04:40.832Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 65%
+2024-11-02T06:04:40.837Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 66%
+2024-11-02T06:04:40.842Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 67%
+2024-11-02T06:04:40.849Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 68%
+2024-11-02T06:04:40.856Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 69%
+2024-11-02T06:04:40.910Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 70%
+2024-11-02T06:04:40.961Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 71%
+2024-11-02T06:04:40.972Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 73%
+2024-11-02T06:04:40.995Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 74%
+2024-11-02T06:04:41.006Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 75%
+2024-11-02T06:04:41.013Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 76%
+2024-11-02T06:04:41.061Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 77%
+2024-11-02T06:04:41.062Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 78%
+2024-11-02T06:04:41.087Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 80%
+2024-11-02T06:04:41.106Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 81%
+2024-11-02T06:04:41.121Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 82%
+2024-11-02T06:04:41.181Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 83%
+2024-11-02T06:04:41.190Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 84%
+2024-11-02T06:04:41.204Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 86%
+2024-11-02T06:04:41.205Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 87%
+2024-11-02T06:04:41.238Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 89%
+2024-11-02T06:04:41.239Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 90%
+2024-11-02T06:04:41.283Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 93%
+2024-11-02T06:04:41.294Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 94%
+2024-11-02T06:04:41.300Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 96%
+2024-11-02T06:04:41.301Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 97%
+2024-11-02T06:04:41.306Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 98%
+2024-11-02T06:04:41.355Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 99%
+2024-11-02T06:04:41.365Z [Modules] Streaming discord_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip: 100%
+2024-11-02T06:04:41.367Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-11-02T06:04:41.368Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip
+2024-11-02T06:04:41.831Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 1%
+2024-11-02T06:04:41.868Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 2%
+2024-11-02T06:04:41.905Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 3%
+2024-11-02T06:04:41.940Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 4%
+2024-11-02T06:04:41.971Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 5%
+2024-11-02T06:04:42.105Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 6%
+2024-11-02T06:04:42.242Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 7%
+2024-11-02T06:04:42.333Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 8%
+2024-11-02T06:04:42.424Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 9%
+2024-11-02T06:04:42.529Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 10%
+2024-11-02T06:04:42.593Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 11%
+2024-11-02T06:04:42.669Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 12%
+2024-11-02T06:04:42.799Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 13%
+2024-11-02T06:04:42.887Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 14%
+2024-11-02T06:04:42.944Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 15%
+2024-11-02T06:04:43.081Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 16%
+2024-11-02T06:04:43.181Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 17%
+2024-11-02T06:04:43.282Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 18%
+2024-11-02T06:04:43.339Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 19%
+2024-11-02T06:04:43.401Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 20%
+2024-11-02T06:04:43.482Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 21%
+2024-11-02T06:04:43.598Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 22%
+2024-11-02T06:04:43.714Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 23%
+2024-11-02T06:04:43.865Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 24%
+2024-11-02T06:04:43.899Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 25%
+2024-11-02T06:04:44.016Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 26%
+2024-11-02T06:04:44.156Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 27%
+2024-11-02T06:04:44.186Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 28%
+2024-11-02T06:04:44.290Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 29%
+2024-11-02T06:04:44.389Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 30%
+2024-11-02T06:04:44.498Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 31%
+2024-11-02T06:04:44.614Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 32%
+2024-11-02T06:04:44.706Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 33%
+2024-11-02T06:04:44.782Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 34%
+2024-11-02T06:04:44.860Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 35%
+2024-11-02T06:04:44.950Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 36%
+2024-11-02T06:04:45.035Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 37%
+2024-11-02T06:04:45.124Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 38%
+2024-11-02T06:04:45.195Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 39%
+2024-11-02T06:04:45.236Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 40%
+2024-11-02T06:04:45.353Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 41%
+2024-11-02T06:04:45.481Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 42%
+2024-11-02T06:04:45.657Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 43%
+2024-11-02T06:04:45.660Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 44%
+2024-11-02T06:04:45.735Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 45%
+2024-11-02T06:04:45.831Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 46%
+2024-11-02T06:04:45.882Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 47%
+2024-11-02T06:04:45.963Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 48%
+2024-11-02T06:04:46.103Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 49%
+2024-11-02T06:04:46.178Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 50%
+2024-11-02T06:04:46.312Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 51%
+2024-11-02T06:04:46.370Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 52%
+2024-11-02T06:04:46.508Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 53%
+2024-11-02T06:04:46.563Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 54%
+2024-11-02T06:04:46.636Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 55%
+2024-11-02T06:04:46.723Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 56%
+2024-11-02T06:04:46.829Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 57%
+2024-11-02T06:04:46.933Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 58%
+2024-11-02T06:04:47.048Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 59%
+2024-11-02T06:04:47.195Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 60%
+2024-11-02T06:04:47.240Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 61%
+2024-11-02T06:04:47.328Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 62%
+2024-11-02T06:04:47.402Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 63%
+2024-11-02T06:04:47.464Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 64%
+2024-11-02T06:04:47.549Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 65%
+2024-11-02T06:04:47.671Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 66%
+2024-11-02T06:04:47.756Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 67%
+2024-11-02T06:04:47.881Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 68%
+2024-11-02T06:04:47.942Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 69%
+2024-11-02T06:04:48.021Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 70%
+2024-11-02T06:04:48.113Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 71%
+2024-11-02T06:04:48.232Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 72%
+2024-11-02T06:04:48.306Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 73%
+2024-11-02T06:04:48.422Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 74%
+2024-11-02T06:04:48.498Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 75%
+2024-11-02T06:04:48.582Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 76%
+2024-11-02T06:04:48.636Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 77%
+2024-11-02T06:04:48.724Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 78%
+2024-11-02T06:04:48.840Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 79%
+2024-11-02T06:04:48.893Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 80%
+2024-11-02T06:04:49.015Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 81%
+2024-11-02T06:04:49.056Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 82%
+2024-11-02T06:04:49.166Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 83%
+2024-11-02T06:04:49.211Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 84%
+2024-11-02T06:04:49.319Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 85%
+2024-11-02T06:04:49.400Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 86%
+2024-11-02T06:04:49.468Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 87%
+2024-11-02T06:04:49.577Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 88%
+2024-11-02T06:04:49.643Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 89%
+2024-11-02T06:04:49.805Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 90%
+2024-11-02T06:04:49.901Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 91%
+2024-11-02T06:04:49.969Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 92%
+2024-11-02T06:04:50.003Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 93%
+2024-11-02T06:04:50.113Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 94%
+2024-11-02T06:04:50.222Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 95%
+2024-11-02T06:04:50.320Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 96%
+2024-11-02T06:04:50.374Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 97%
+2024-11-02T06:04:50.453Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 98%
+2024-11-02T06:04:50.518Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 99%
+2024-11-02T06:04:50.622Z [Modules] Streaming discord_voice@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip: 100%
+2024-11-02T06:04:50.623Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-11-02T06:04:50.623Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip
+2024-11-02T06:04:51.043Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 4%
+2024-11-02T06:04:51.044Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 5%
+2024-11-02T06:04:51.046Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 6%
+2024-11-02T06:04:51.048Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 9%
+2024-11-02T06:04:51.050Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 10%
+2024-11-02T06:04:51.052Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 12%
+2024-11-02T06:04:51.054Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 14%
+2024-11-02T06:04:51.056Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 16%
+2024-11-02T06:04:51.058Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 17%
+2024-11-02T06:04:51.059Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 19%
+2024-11-02T06:04:51.062Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 21%
+2024-11-02T06:04:51.063Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 22%
+2024-11-02T06:04:51.064Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 23%
+2024-11-02T06:04:51.065Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 24%
+2024-11-02T06:04:51.067Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 25%
+2024-11-02T06:04:51.068Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 27%
+2024-11-02T06:04:51.070Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 29%
+2024-11-02T06:04:51.072Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 31%
+2024-11-02T06:04:51.073Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 32%
+2024-11-02T06:04:51.076Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 34%
+2024-11-02T06:04:51.078Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 36%
+2024-11-02T06:04:51.080Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 38%
+2024-11-02T06:04:51.081Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 39%
+2024-11-02T06:04:51.083Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 40%
+2024-11-02T06:04:51.084Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 41%
+2024-11-02T06:04:51.087Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 45%
+2024-11-02T06:04:51.089Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 46%
+2024-11-02T06:04:51.090Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 48%
+2024-11-02T06:04:51.091Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 49%
+2024-11-02T06:04:51.092Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 51%
+2024-11-02T06:04:51.094Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 53%
+2024-11-02T06:04:51.095Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 55%
+2024-11-02T06:04:51.098Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 58%
+2024-11-02T06:04:51.099Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 60%
+2024-11-02T06:04:51.101Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 62%
+2024-11-02T06:04:51.103Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 65%
+2024-11-02T06:04:51.105Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 67%
+2024-11-02T06:04:51.108Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 69%
+2024-11-02T06:04:51.111Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 72%
+2024-11-02T06:04:51.112Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 73%
+2024-11-02T06:04:51.112Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 75%
+2024-11-02T06:04:51.117Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 79%
+2024-11-02T06:04:51.119Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 81%
+2024-11-02T06:04:51.120Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 82%
+2024-11-02T06:04:51.121Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 84%
+2024-11-02T06:04:51.123Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 85%
+2024-11-02T06:04:51.124Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 88%
+2024-11-02T06:04:51.126Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 90%
+2024-11-02T06:04:51.128Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 92%
+2024-11-02T06:04:51.132Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 94%
+2024-11-02T06:04:51.132Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 96%
+2024-11-02T06:04:51.133Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 97%
+2024-11-02T06:04:51.135Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 98%
+2024-11-02T06:04:51.136Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 99%
+2024-11-02T06:04:51.139Z [Modules] Streaming discord_zstd@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip: 100%
+2024-11-02T06:04:51.141Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-11-02T06:04:51.142Z [Modules] Installing updates...
+2024-11-02T06:04:51.142Z [Modules] Installing discord_desktop_core@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_desktop_core-1.zip
+2024-11-02T06:04:51.388Z [Modules] Installing discord_erlpack@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_erlpack-1.zip
+2024-11-02T06:04:51.517Z [Modules] Installing discord_spellcheck@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_spellcheck-1.zip
+2024-11-02T06:04:52.938Z [Modules] Installing discord_utils@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_utils-1.zip
+2024-11-02T06:04:53.274Z [Modules] Installing discord_voice@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_voice-1.zip
+2024-11-02T06:04:54.239Z [Modules] Installing discord_zstd@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_zstd-1.zip
+2024-11-02T06:04:54.268Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-11-02T06:04:54.268Z [Modules] Checking for host updates.
+2024-11-02T06:04:54.635Z [Modules] Host is up to date.
+2024-11-02T06:04:54.636Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-11-02T06:04:54.639Z [Modules] No module updates available.
+2024-11-02T06:05:05.747Z [Modules] Starting to install discord_krisp...
+2024-11-02T06:05:05.747Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-11-02T06:05:05.748Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip
+2024-11-02T06:05:05.770Z [Modules] Starting to install discord_game_utils...
+2024-11-02T06:05:06.274Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 1%
+2024-11-02T06:05:06.327Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 2%
+2024-11-02T06:05:34.296Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 8%
+2024-11-02T06:05:34.318Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 16%
+2024-11-02T06:05:34.332Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 17%
+2024-11-02T06:05:34.340Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 18%
+2024-11-02T06:05:34.342Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 19%
+2024-11-02T06:05:34.343Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 20%
+2024-11-02T06:05:34.345Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 21%
+2024-11-02T06:05:34.346Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 22%
+2024-11-02T06:05:34.347Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 23%
+2024-11-02T06:05:34.348Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 24%
+2024-11-02T06:05:34.350Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 25%
+2024-11-02T06:05:34.394Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 26%
+2024-11-02T06:05:34.479Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 27%
+2024-11-02T06:05:34.506Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 28%
+2024-11-02T06:05:34.588Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 29%
+2024-11-02T06:05:34.610Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 30%
+2024-11-02T06:05:34.662Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 31%
+2024-11-02T06:05:34.704Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 32%
+2024-11-02T06:05:34.744Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 33%
+2024-11-02T06:05:34.799Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 34%
+2024-11-02T06:05:34.830Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 35%
+2024-11-02T06:05:34.869Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 36%
+2024-11-02T06:05:35.013Z [Modules] Checking for host updates.
+2024-11-02T06:05:35.047Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 37%
+2024-11-02T06:05:35.172Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 38%
+2024-11-02T06:05:35.252Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 39%
+2024-11-02T06:05:35.368Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 40%
+2024-11-02T06:05:35.389Z [Modules] Host is up to date.
+2024-11-02T06:05:35.389Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-11-02T06:05:35.396Z [Modules] Starting to install discord_rpc...
+2024-11-02T06:05:35.440Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 41%
+2024-11-02T06:05:35.465Z [Modules] No module updates available.
+2024-11-02T06:05:35.484Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 42%
+2024-11-02T06:05:35.615Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 43%
+2024-11-02T06:05:35.629Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 44%
+2024-11-02T06:05:35.685Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 45%
+2024-11-02T06:05:35.766Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 46%
+2024-11-02T06:05:35.824Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 47%
+2024-11-02T06:05:35.909Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 48%
+2024-11-02T06:05:36.018Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 49%
+2024-11-02T06:05:36.141Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 50%
+2024-11-02T06:05:36.242Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 51%
+2024-11-02T06:05:36.335Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 52%
+2024-11-02T06:05:36.388Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 53%
+2024-11-02T06:05:36.507Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 54%
+2024-11-02T06:05:36.576Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 55%
+2024-11-02T06:05:36.682Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 56%
+2024-11-02T06:05:36.779Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 57%
+2024-11-02T06:05:36.811Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 58%
+2024-11-02T06:05:36.873Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 59%
+2024-11-02T06:05:36.967Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 60%
+2024-11-02T06:05:37.052Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 61%
+2024-11-02T06:05:37.139Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 62%
+2024-11-02T06:05:37.198Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 63%
+2024-11-02T06:05:37.288Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 64%
+2024-11-02T06:05:37.368Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 65%
+2024-11-02T06:05:37.455Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 66%
+2024-11-02T06:05:37.519Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 67%
+2024-11-02T06:05:37.594Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 68%
+2024-11-02T06:05:37.688Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 69%
+2024-11-02T06:05:37.752Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 70%
+2024-11-02T06:05:37.870Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 71%
+2024-11-02T06:05:37.915Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 72%
+2024-11-02T06:05:38.011Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 73%
+2024-11-02T06:05:38.084Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 74%
+2024-11-02T06:05:38.157Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 75%
+2024-11-02T06:05:38.250Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 76%
+2024-11-02T06:05:38.353Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 77%
+2024-11-02T06:05:38.459Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 78%
+2024-11-02T06:05:38.533Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 79%
+2024-11-02T06:05:38.615Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 80%
+2024-11-02T06:05:38.703Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 81%
+2024-11-02T06:05:38.798Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 82%
+2024-11-02T06:05:38.912Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 83%
+2024-11-02T06:05:38.968Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 84%
+2024-11-02T06:05:39.040Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 85%
+2024-11-02T06:05:39.094Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 86%
+2024-11-02T06:05:39.170Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 87%
+2024-11-02T06:05:39.239Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 88%
+2024-11-02T06:05:39.307Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 89%
+2024-11-02T06:05:39.459Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 90%
+2024-11-02T06:05:39.515Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 91%
+2024-11-02T06:05:39.597Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 92%
+2024-11-02T06:05:39.672Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 93%
+2024-11-02T06:05:39.796Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 94%
+2024-11-02T06:05:39.842Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 95%
+2024-11-02T06:05:39.913Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 96%
+2024-11-02T06:05:39.988Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 97%
+2024-11-02T06:05:40.060Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 98%
+2024-11-02T06:05:40.146Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 99%
+2024-11-02T06:05:40.213Z [Modules] Streaming discord_krisp@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip: 100%
+2024-11-02T06:05:40.215Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-11-02T06:05:40.215Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip
+2024-11-02T06:05:40.215Z [Modules] Installing discord_krisp@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_krisp-1.zip
+2024-11-02T06:05:40.804Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-11-02T06:05:40.829Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 1%
+2024-11-02T06:05:40.831Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 2%
+2024-11-02T06:05:40.838Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 3%
+2024-11-02T06:05:40.847Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 4%
+2024-11-02T06:05:40.854Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 5%
+2024-11-02T06:05:40.861Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 6%
+2024-11-02T06:05:40.869Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 7%
+2024-11-02T06:05:40.873Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 8%
+2024-11-02T06:05:40.880Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 9%
+2024-11-02T06:05:40.887Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 10%
+2024-11-02T06:05:40.893Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 11%
+2024-11-02T06:05:40.896Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 12%
+2024-11-02T06:05:40.902Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 13%
+2024-11-02T06:05:40.914Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 14%
+2024-11-02T06:05:40.920Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 15%
+2024-11-02T06:05:40.926Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 16%
+2024-11-02T06:05:40.933Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 17%
+2024-11-02T06:05:40.939Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 18%
+2024-11-02T06:05:40.947Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 19%
+2024-11-02T06:05:40.952Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 20%
+2024-11-02T06:05:40.959Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 21%
+2024-11-02T06:05:40.963Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 22%
+2024-11-02T06:05:40.970Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 23%
+2024-11-02T06:05:40.975Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 24%
+2024-11-02T06:05:40.983Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 25%
+2024-11-02T06:05:40.988Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 26%
+2024-11-02T06:05:40.992Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 27%
+2024-11-02T06:05:40.997Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 28%
+2024-11-02T06:05:41.007Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 29%
+2024-11-02T06:05:41.011Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 30%
+2024-11-02T06:05:41.016Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 31%
+2024-11-02T06:05:41.023Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 32%
+2024-11-02T06:05:41.027Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 33%
+2024-11-02T06:05:41.034Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 34%
+2024-11-02T06:05:41.040Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 35%
+2024-11-02T06:05:41.046Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 36%
+2024-11-02T06:05:41.052Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 37%
+2024-11-02T06:05:41.058Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 38%
+2024-11-02T06:05:41.062Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 39%
+2024-11-02T06:05:41.067Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 40%
+2024-11-02T06:05:41.074Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 41%
+2024-11-02T06:05:41.078Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 42%
+2024-11-02T06:05:41.083Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 43%
+2024-11-02T06:05:41.091Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 44%
+2024-11-02T06:05:41.097Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 45%
+2024-11-02T06:05:41.102Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 46%
+2024-11-02T06:05:41.108Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 47%
+2024-11-02T06:05:41.115Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 48%
+2024-11-02T06:05:41.119Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 49%
+2024-11-02T06:05:41.124Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 50%
+2024-11-02T06:05:41.130Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 51%
+2024-11-02T06:05:41.134Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 52%
+2024-11-02T06:05:41.141Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 53%
+2024-11-02T06:05:41.147Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 54%
+2024-11-02T06:05:41.152Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 55%
+2024-11-02T06:05:41.158Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 56%
+2024-11-02T06:05:41.164Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 57%
+2024-11-02T06:05:41.169Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 58%
+2024-11-02T06:05:41.173Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 59%
+2024-11-02T06:05:41.177Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 60%
+2024-11-02T06:05:41.181Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 61%
+2024-11-02T06:05:41.186Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 62%
+2024-11-02T06:05:41.191Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 63%
+2024-11-02T06:05:41.194Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 64%
+2024-11-02T06:05:41.200Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 65%
+2024-11-02T06:05:41.204Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 66%
+2024-11-02T06:05:41.208Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 67%
+2024-11-02T06:05:41.211Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 68%
+2024-11-02T06:05:41.217Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 69%
+2024-11-02T06:05:41.222Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 70%
+2024-11-02T06:05:41.230Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 71%
+2024-11-02T06:05:41.236Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 72%
+2024-11-02T06:05:41.242Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 73%
+2024-11-02T06:05:41.247Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 74%
+2024-11-02T06:05:41.251Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 75%
+2024-11-02T06:05:41.254Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 76%
+2024-11-02T06:05:41.259Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 77%
+2024-11-02T06:05:41.264Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 78%
+2024-11-02T06:05:41.267Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 79%
+2024-11-02T06:05:41.272Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 80%
+2024-11-02T06:05:41.276Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 81%
+2024-11-02T06:05:41.280Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 82%
+2024-11-02T06:05:41.285Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 83%
+2024-11-02T06:05:41.290Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 84%
+2024-11-02T06:05:41.295Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 85%
+2024-11-02T06:05:41.298Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 86%
+2024-11-02T06:05:41.302Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 87%
+2024-11-02T06:05:41.309Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 88%
+2024-11-02T06:05:41.315Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 89%
+2024-11-02T06:05:41.317Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 90%
+2024-11-02T06:05:41.320Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 91%
+2024-11-02T06:05:41.326Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 92%
+2024-11-02T06:05:41.330Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 93%
+2024-11-02T06:05:41.334Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 94%
+2024-11-02T06:05:41.336Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 95%
+2024-11-02T06:05:41.344Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 96%
+2024-11-02T06:05:41.346Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 97%
+2024-11-02T06:05:41.350Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 98%
+2024-11-02T06:05:41.355Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 99%
+2024-11-02T06:05:41.358Z [Modules] Streaming discord_game_utils@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip: 100%
+2024-11-02T06:05:41.360Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-11-02T06:05:41.360Z [Modules] Streaming discord_rpc@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_rpc-1.zip
+2024-11-02T06:05:41.360Z [Modules] Installing discord_game_utils@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_game_utils-1.zip
+2024-11-02T06:05:41.464Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-11-02T06:05:42.058Z [Modules] Streaming discord_rpc@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_rpc-1.zip: 44%
+2024-11-02T06:05:42.059Z [Modules] Streaming discord_rpc@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_rpc-1.zip: 47%
+2024-11-02T06:05:42.067Z [Modules] Streaming discord_rpc@1 to /home/antonio/.config/discord/0.0.72/modules/pending/discord_rpc-1.zip: 100%
+2024-11-02T06:05:42.067Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-11-02T06:05:42.068Z [Modules] Installing discord_rpc@1 from /home/antonio/.config/discord/0.0.72/modules/pending/discord_rpc-1.zip
+2024-11-02T06:05:42.086Z [Modules] Finished module installations. [success: 1] [failure: 0]

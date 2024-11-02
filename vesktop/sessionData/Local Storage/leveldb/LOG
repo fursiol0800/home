@@ -1,0 +1,15 @@
+2024/11/02-18:09:00.037 4fb Reusing MANIFEST /home/antonio/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/11/02-18:09:00.075 4fb Recovering log #26
+2024/11/02-18:09:00.076 4fb Reusing old log /home/antonio/.config/vesktop/sessionData/Local Storage/leveldb/000026.log 
+2024/11/02-18:24:01.769 4fb Level-0 table #30: started
+2024/11/02-18:24:01.781 4fb Level-0 table #30: 32731 bytes OK
+2024/11/02-18:24:01.788 4fb Delete type=0 #26
+2024/11/02-18:24:01.789 4fb Compacting 4@0 + 1@1 files
+2024/11/02-18:24:01.794 4fb Generated table #31@0: 34 keys, 16396 bytes
+2024/11/02-18:24:01.794 4fb Compacted 4@0 + 1@1 files => 16396 bytes
+2024/11/02-18:24:01.801 4fb compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/02-18:24:01.801 4fb Delete type=2 #20
+2024/11/02-18:24:01.801 4fb Delete type=2 #22
+2024/11/02-18:24:01.801 4fb Delete type=2 #25
+2024/11/02-18:24:01.802 4fb Delete type=2 #27
+2024/11/02-18:24:01.802 4fb Delete type=2 #30

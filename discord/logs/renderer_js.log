@@ -1,0 +1,205 @@
+[2024-11-02 12:34:55.132] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:35:04.384] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:35:04.386] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:35:05.530] [info]  Initializing voice engine with audio subsystem: standard
+[2024-11-02 12:35:05.751] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 339221, Version Hash: 36872679de2a9e11cc7bc69924d1a64fdb46f66f
+[2024-11-02 12:35:06.159] [info]  [default] [NATIVE INFO] host 0.0.72, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_zstd: 1, build: null
+[2024-11-02 12:35:06.281] [error] [Spellchecker] sh is not a valid locale.
+[2024-11-02 12:35:34.299] [info]  [Spellchecker] Switching to en-US (available)
+[2024-11-02 12:35:34.300] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:35:34.301] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:35:34.303] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:35:34.304] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:35:34.884] [warn]  [CloudSyncUtils] CloudSync is not supported on this platform
+[2024-11-02 12:35:35.291] [warn]  [DEPRECATED] Please use `subscribeWithSelector` middleware
+[2024-11-02 12:35:39.020] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:39.021] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:39.021] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:39.021] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:39.021] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:39.021] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:42.114] [error] [RPCServer:WSS] Error: listen EADDRINUSE: address already in use 127.0.0.1:6463
+[2024-11-02 12:35:42.118] [error] Uncaught Error: listen EADDRINUSE: address already in use 127.0.0.1:6463
+[2024-11-02 12:35:42.126] [info]  [RPCServer:IPC] Starting on /run/user/1000/discord-ipc-1
+[2024-11-02 12:35:43.116] [info]  [RPCServer:WSS] Starting on 6464
+[2024-11-02 12:35:45.762] [info]  [LoginQRSocket] [0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2
+[2024-11-02 12:35:46.220] [info]  [LoginQRSocket] [459ms] got hello, auth timeout=284868ms
+[2024-11-02 12:35:46.422] [info]  [LoginQRSocket] [661ms] connected, handshaking with fingerprint: fxJas5PzmgTRglc3ooBIDXmTf6TeLVQqGEYm6gZdUEc
+[2024-11-02 12:35:46.704] [info]  [LoginQRSocket] [943ms] computed nonce proof
+[2024-11-02 12:35:46.984] [info]  [LoginQRSocket] [1224ms] handshake complete awaiting remote auth.
+[2024-11-02 12:35:47.203] [info]  [RPCServer:WSS] Socket Message: 4 [object Object]
+[2024-11-02 12:35:47.219] [info]  [RPCServer:WSS] Socket Emit: 4 [object Object]
+[2024-11-02 12:35:51.098] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:51.098] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:51.099] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:51.099] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:51.100] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:35:51.100] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:40:32.376] [info]  [LoginQRSocket] [286328ms] disconnected, code: 4003 Handshake Timeout
+[2024-11-02 12:40:32.390] [error] [LoginQRSocket] Could not complete QR code login, trying to restart with a new QR code.
+[2024-11-02 12:40:35.832] [info]  [LoginQRSocket] [290069ms] cleaning up
+[2024-11-02 12:40:35.838] [info]  [LoginQRSocket] [0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2
+[2024-11-02 12:40:36.276] [info]  [LoginQRSocket] [446ms] got hello, auth timeout=273394ms
+[2024-11-02 12:40:36.557] [info]  [LoginQRSocket] [728ms] connected, handshaking with fingerprint: 1szczQ2SReLGhZeqldWp7kExnwuj0CuxWFFnGA8Sx4I
+[2024-11-02 12:40:36.848] [info]  [LoginQRSocket] [1018ms] computed nonce proof
+[2024-11-02 12:40:37.135] [info]  [LoginQRSocket] [1302ms] handshake complete awaiting remote auth.
+[2024-11-02 12:40:40.236] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:40:40.239] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:40:40.240] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:40:40.241] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:40:40.241] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:40:40.242] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:07.052] [info]  [LoginQRSocket] [271218ms] remote auth handshake started, awaiting ticket/cancel.
+[2024-11-02 12:45:09.667] [info]  [LoginQRSocket] [273833ms] disconnected, code: 4003 Handshake Timeout
+[2024-11-02 12:45:09.668] [error] [LoginQRSocket] Could not complete QR code login, trying to restart with a new QR code.
+[2024-11-02 12:45:11.434] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:45:11.490] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:45:12.460] [info]  [LoginQRSocket] [276630ms] cleaning up
+[2024-11-02 12:45:12.468] [info]  [LoginQRSocket] [0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2
+[2024-11-02 12:45:12.536] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:12.544] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:12.746] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:12.970] [info]  [LoginQRSocket] [508ms] got hello, auth timeout=348153ms
+[2024-11-02 12:45:13.156] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:13.174] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:15.516] [info]  [LoginQRSocket] [3053ms] connected, handshaking with fingerprint: De4ImyLEhO4S5P0qBjLrPaa7AXbH6tOThGRy3Abfv5E
+[2024-11-02 12:45:15.817] [info]  [LoginQRSocket] [3355ms] computed nonce proof
+[2024-11-02 12:45:16.107] [info]  [LoginQRSocket] [3643ms] handshake complete awaiting remote auth.
+[2024-11-02 12:45:19.205] [warn]  [.WebGL-0x65003ee8d00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[2024-11-02 12:45:23.159] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:23.596] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:23.599] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:23.603] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:23.604] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:23.605] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:23.608] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:27.037] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:27.054] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:27.071] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:30.626] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:30.628] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:30.629] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:30.630] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:30.630] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:30.631] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:52.267] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:52.347] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:52.348] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:52.351] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:52.354] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:52.356] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:45:57.866] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:45:59.510] [warn]  [PostMessageTransport] Protocol error: event data should be an Array!
+[2024-11-02 12:46:00.629] [info]  [Flux] Dispatching LOGIN
+[2024-11-02 12:46:00.865] [info]  [Flux] Dispatching LOGIN_SUCCESS
+[2024-11-02 12:46:01.019] [info]  [Routing/Utils] transitionTo - Transitioning to /app
+[2024-11-02 12:46:01.165] [info]  [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2024-11-02 12:46:01.246] [info]  [LoginQRSocket] [48780ms] cleaning up
+[2024-11-02 12:46:01.736] [info]  [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 571 ms
+[2024-11-02 12:46:04.006] [info]  [GatewaySocket] [READY] took 2840ms, as ce9a2e1db6fcaa46a8f2811409e6392c
+[2024-11-02 12:46:04.223] [info]  [Flux] Dispatching CONNECTION_OPEN
+[2024-11-02 12:46:04.324] [info]  [DatabaseManager] removing database (user: 1295566258376282145, database: undefined)
+[2024-11-02 12:46:04.413] [warn]  [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2024-11-02 12:46:04.543] [info]  [Spotify] WS Connecting
+[2024-11-02 12:46:04.553] [info]  [Spotify] Added account: 31rm3hqsodyppdoryl5oz55btesu
+[2024-11-02 12:46:04.970] [info]  [GatewaySocket] [READY_SUPPLEMENTAL] took 3805ms
+[2024-11-02 12:46:06.977] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+[2024-11-02 12:46:07.615] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:07.620] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:07.621] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:07.622] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:07.623] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:07.624] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:08.527] [info]  [Spotify] WS Connected
+[2024-11-02 12:46:09.082] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-02 12:46:09.095] [info]  [Spotify] Profile updated for 31rm3hqsodyppdoryl5oz55btesu: isPremium = false
+[2024-11-02 12:46:09.104] [info]  [Spotify] Devices updated for 31rm3hqsodyppdoryl5oz55btesu: 
+[2024-11-02 12:46:09.890] [error] Access to XMLHttpRequest at 'https://cdn.discordapp.com/changelogs/config_0.json?x=9' from origin 'https://discordapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[2024-11-02 12:46:09.952] [error] Uncaught (in promise) Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+[2024-11-02 12:46:18.944] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:18.945] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:18.946] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:18.947] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:18.948] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:18.952] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:23.690] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:23.690] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:23.696] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:23.696] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:23.697] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:23.698] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:27.531] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:27.538] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:27.539] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:27.539] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:27.540] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:46:27.544] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:09.770] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:09.781] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:09.786] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:09.789] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:09.792] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:09.799] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:52.481] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:52.492] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:52.495] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:52.501] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:52.506] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:47:52.518] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:33.551] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:33.555] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:33.559] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:33.560] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:33.563] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:33.568] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:41.264] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:41.265] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:41.266] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:41.266] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:41.268] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:48:41.270] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:33.177] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:33.187] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:33.188] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:33.189] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:33.190] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:33.190] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:50.254] [warn]  The resource https://discordapp.com/assets/b21c5111a12372139409.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:50.256] [warn]  The resource https://discordapp.com/assets/f5b8aa3411dfc24ff2e6.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:50.257] [warn]  The resource https://discordapp.com/assets/8bd8143eff37936894aa.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:50.260] [warn]  The resource https://discordapp.com/assets/48a594e29497835802fe.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:50.261] [warn]  The resource https://discordapp.com/assets/452d7be36bf4b23241bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:51:50.262] [warn]  The resource https://discordapp.com/assets/8234e0a75aa9afb205bd.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[2024-11-02 12:53:20.970] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:20.980] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:20.981] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:20.991] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:20.991] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:20.993] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.000] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.006] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.010] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.014] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.020] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.023] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.025] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.026] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.033] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.034] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.034] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.041] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.054] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.060] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.061] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.062] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.068] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.069] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.074] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.075] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.082] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.093] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.094] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.099] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.099] [warn]  Window state not initialized window-1
+[2024-11-02 12:53:21.100] [warn]  Window state not initialized window-1
