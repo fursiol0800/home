@@ -1,0 +1,15 @@
+{
+   "description": "A dark theme called Magoon which is now available for the Chrome Developer Tools.",
+   "devtools_page": "devtools.html",
+   "homepage_url": "https://github.com/NorthernTwig/Magoon/tree/master/ChromeConsole",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqPvfRpsIL8E/mp6aUhCi33almINPh9RuPyuadiRp7ps5fOKh5jxJBvyub4zF+zn49sVyVO7WASlrTqZldB4n/iKfCn9zbN8HJEC8t1Rz1rvFmZ+pPJ3LqfaMDqQozuubNKxKSXLMmKC97IUbQsm3MBcYRvOloEDSdEncM6DsVJ99O9HA3zSxpx1PcIWiahpZ2Li3tT8X627wLuWdY/8z19OtjFhAsySfsP7Wc6ZBVVs2B1i8xSL8NOaZjaiomkF3zm+RnPGpT6DlCRojDH2PcpXy8z9fY0XpmNZChWAebmkYe9kwTyzKplOq+voKP0SptXGMMfggFvw3lisSIt+RmQIDAQAB",
+   "manifest_version": 2,
+   "name": "Magoon: Chrome DevTools Theme",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.0"
+}

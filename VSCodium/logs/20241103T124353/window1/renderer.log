@@ -1,0 +1,5 @@
+2024-11-03 12:44:31.360 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 27ms.
+2024-11-03 12:44:31.594 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 56ms.
+2024-11-03 12:44:33.656 [info] Started local extension host with pid 43032.
+2024-11-03 12:46:11.272 [warning] Creation of workbench contribution 'workbench.contrib.chatCompatNotifier' took 126ms.
+2024-11-03 12:48:16.339 [info] [perf] Render performance baseline is 188ms

@@ -1,0 +1,27 @@
+2024/11/03-13:21:34.346 a100 Creating DB /home/antonio/.config/thorium/Default/IndexedDB/https_app.trackkun.com_0.indexeddb.leveldb since it was missing.
+2024/11/03-13:21:34.356 a100 Reusing MANIFEST /home/antonio/.config/thorium/Default/IndexedDB/https_app.trackkun.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/03-13:21:34.383 a102 Level-0 table #5: started
+2024/11/03-13:21:34.390 a102 Level-0 table #5: 1319 bytes OK
+2024/11/03-13:21:34.397 a102 Delete type=0 #3
+2024/11/03-13:21:34.397 a100 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/03-13:21:34.822 a103 Level-0 table #7: started
+2024/11/03-13:21:34.826 a115 Current memtable full; waiting...
+2024/11/03-13:21:34.829 a103 Level-0 table #7: 3781 bytes OK
+2024/11/03-13:21:34.836 a103 Delete type=0 #4
+2024/11/03-13:21:34.837 a103 Level-0 table #9: started
+2024/11/03-13:21:34.841 a116 Current memtable full; waiting...
+2024/11/03-13:21:34.841 a103 Level-0 table #9: 552 bytes OK
+2024/11/03-13:21:34.848 a103 Delete type=0 #6
+2024/11/03-13:21:34.848 a100 Level-0 table #11: started
+2024/11/03-13:21:34.852 a100 Level-0 table #11: 548 bytes OK
+2024/11/03-13:21:34.866 a100 Delete type=0 #8
+2024/11/03-13:21:34.866 a117 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\xc8\x03\x00b\x00o\x00x' @ 332 : 0
+2024/11/03-13:21:34.866 a117 Compacting 2@0 + 1@1 files
+2024/11/03-13:21:34.871 a117 Generated table #12@0: 116 keys, 1896 bytes
+2024/11/03-13:21:34.871 a117 Compacted 2@0 + 1@1 files => 1896 bytes
+2024/11/03-13:21:34.878 a117 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/03-13:21:34.879 a117 Delete type=2 #9
+2024/11/03-13:21:34.879 a117 Delete type=2 #11
+2024/11/03-13:21:34.879 a100 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/03-13:21:34.879 a100 Manual compaction at level-0 from '\x00\x06\x00\x00\xc8\x03\x00b\x00o\x00x' @ 332 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/03-13:21:34.879 a100 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

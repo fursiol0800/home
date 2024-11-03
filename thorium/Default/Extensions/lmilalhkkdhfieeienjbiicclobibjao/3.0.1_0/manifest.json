@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Run Javascript"
+   },
+   "content_scripts": [ {
+      "content_security_policy": "script-src 'self' https://www.google-analytics.com; script-src 'self' 'unsafe-eval'; object-src 'self'",
+      "js": [ "lib_jquery_3_3_1.js", "inject.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "permissions": [ "lib_jquery_3_3_1.js", "lib_jquery_2_2_4.js", "lib_jquery_1_12_4.js" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Run custom Javascript, each time you visit a website",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon.png",
+      "256": "icon-256.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png",
+      "64": "icon-64.png",
+      "96": "icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiB4/hvzkFP5qHiB72eDCltQ4i6apHBh2uJD38KESmV6xe4Zp7rhclBlGvnIUFfad93PuqH1qjepn9tLIhkASw6on5xf9XF54xry70/hV1ewSaOxL92AtxPlpzp7xx2/UP1xhBTunLkhNWZKZvxMEosvOeyi7Daor4ctNYVqiU2ntE7WRq1Ua2SaREx/NJYc9W3pM1p0JxdxbSizre5oLIrl0jYXyDe3K8BF/17TsYoExa0vRXSvesydwFbKc65LOwWToEGREPtjEXV8kdW7s/0q9F2xJOwngaUoGgl9XDxKnU0ennbwQB8P3UCPfLZ65g9mHBeREyzpBTKeqJxQGxQIDAQAB",
+   "manifest_version": 2,
+   "name": "Run Javascript",
+   "permissions": [ "storage", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1"
+}

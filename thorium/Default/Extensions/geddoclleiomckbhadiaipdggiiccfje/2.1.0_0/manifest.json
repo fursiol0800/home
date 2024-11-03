@@ -1,0 +1,41 @@
+{
+   "action": {
+      "default_icon": "icons/disabled@2x.png"
+   },
+   "background": {
+      "service_worker": "service-worker.js"
+   },
+   "commands": {
+      "handle-qjs-action": {
+         "description": "Enable / disable JavaScript",
+         "suggested_key": {
+            "default": "Alt+Shift+Q",
+            "mac": "Alt+Shift+Q",
+            "windows": "Alt+Shift+Q"
+         }
+      }
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Disable JavaScript on any site in one click",
+   "homepage_url": "https://github.com/maximelebreton/quick-javascript-switcher",
+   "icons": {
+      "128": "icons/logo-128.png",
+      "16": "icons/logo-16.png",
+      "256": "icons/logo-256.png",
+      "48": "icons/logo-48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDq+m7W7jBJGM0YSfBvx3F8x04YdKbmkXYzhKJ/bnKwaNRZAU2KmxJJrbbEf7c8gxyD9l2iXhXWxHtytrNxMxy6o2SgBKGhU4P/ZHp2elNkCpqAbHRaBz4NO+aZFu4NNyb7qbPAd+1A9cUIbjNjtWLnB/Wa2tSqi2aojWop7En0VwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88.0",
+   "name": "Quick Javascript Switcher",
+   "options_page": "options.html",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "contentSettings", "contextMenus", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.0"
+}

@@ -1,0 +1,1 @@
+import{t as e}from"./index.esm-56fcd943.js";import{r}from"./respondToWindowMessage-dfa8a563.js";import{s}from"./sendWindowMessage-46579fce.js";import"./onMessage-fb148085.js";s({event:"tk:scrapeReady",args:{}}),r({event:"tk:scrape",handler:a=>e(a.data.args)});

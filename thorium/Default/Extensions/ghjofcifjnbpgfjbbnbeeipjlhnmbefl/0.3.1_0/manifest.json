@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "scripts/content.js" ],
+      "matches": [ "https://mangadex.org/*" ]
+   } ],
+   "description": "Similar manga recommendations for MangaDex.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiZTRZoE0FFv2lzxqUBumEzvUw2BCjOswlVlkFyDDqmGv3BAJ/jHPltie6VtMksIrrry5C1VQtG1FczhkN+OKpOhntLAOrsHWy7mpIbsSvvOg4/hs3uyPJfzYZs5RFrqJWOfuklj+i5RQfV8lRQzJv/vzVQ1j37buWoXp5r0eOcpgfeerjQI36tXMXlJRYZvbB9nDQnI0rUaHLulXILvvSfxSHMGHMOxwBeO9ark48xtrdRy2c+PmsaMdLCdfqiFoJGE/zfVMgn+we1iGlhuCPhWru/WTz2NekwHWxQ0gDsspr51cZ22A9QrjnrcoiKcN2BviKyTI4W5buINjrEeMtwIDAQAB",
+   "manifest_version": 3,
+   "name": "MangaDex Similar Manga",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.1"
+}

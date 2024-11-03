@@ -1,0 +1,1 @@
+import{E as r}from"./ExtMessage-a2aff225.js";async function s(t,a){const e=Math.round(Math.random()*1e3)+100;return await r.send({event:"main:setImgReferer",data:{id:e,url:t,referer:`https://${a}`}}),()=>r.send({event:"main:cancelImgReferer",data:{id:e}})}export{s as o};

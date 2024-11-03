@@ -1,0 +1,1 @@
+import{E as t,a as i}from"./ExtMessage-a2aff225.js";import"./onMessage-fb148085.js";let s=!1,a;window.addEventListener("message",e=>{e.data==="tk:main_ready"&&(s=!0,a&&n(a))});t.addListeners([new i("*",e=>{s?n(e):a=e})]);t.send({event:"bridge:main:ready"});function n(e){window.postMessage({event:e.event,data:e.data},location.origin)}

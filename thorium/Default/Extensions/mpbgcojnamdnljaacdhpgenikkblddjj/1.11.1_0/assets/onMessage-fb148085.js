@@ -1,0 +1,1 @@
+async function w({addListener:y,removeListener:V,transform:s,filter:d,handler:c,onTimeout:i,timeout:f,once:g}){return new Promise(u=>{y(e);const a=()=>g===!0&&V(e),t=f?setTimeout(()=>{a(),u(void 0),i==null||i()},f):void 0;async function e(n,...p){n=s?s(n):n,n!==void 0&&(!d||d(n,...p))&&(a(),u(n),c==null||c(n,...p),t&&clearTimeout(t))}})}export{w as o};

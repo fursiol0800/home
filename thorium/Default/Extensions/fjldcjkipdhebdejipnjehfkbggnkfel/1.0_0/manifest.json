@@ -1,0 +1,17 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "author": "https://novamanga.com/",
+   "description": "With this extension you can easily change your background color and read manga better on sites. Presented by: Nova Manga Read",
+   "homepage_url": "https://novamanga.com/",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3QSLwHgrqrFmk+5BPY1NcVx5hGToB7UfII63QsuFhe1vXylpITgSrgtjO9Yq4JwCiQBzpFhfgTTM+CPSLC5uzDztiOkvJq+TaiboVaUi2JWIWgicQJMHrl5Pe463BPL3VsYa0gm9CTyndKXNEBnEgF3aW1EDEgvTmUs7TltbYA7WdVtmJI7L8nqGDLQTw+qRqAPvHX6SG32ya7nBmMMF8wmxZfMmJkXY8+oXFUXDHId4ow/79IT5ruDGpGuJWDUKVOKtFMqs/IGB3snBRrVILoHW80vILs+BZtMyszWViZB7QW7ss9Ma0GeX0tfmiTPGq2RBxQBrmpxUpA/qV6JySQIDAQAB",
+   "manifest_version": 3,
+   "name": "Manga Read App",
+   "permissions": [ "activeTab", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

@@ -1,0 +1,24 @@
+Signal: 1
+------- BEGIN QV2RAY CRASH REPORT -------
+Active Kernel Instances:
+[]
+Current Connection:
+{"connectionId":"vijkpnsbywyk","groupId":"000000000000"}
+
+
+Active Connection Settings:
+{"creationDate":1730527005,"displayName":"S4-V2RAY2-ThetZinNyein","lastConnected":1730591163,"lastUpdatedDate":1730527005,"stats":[{"downLinkData":4233838984,"upLinkData":4269423},{"downLinkData":4233844552,"upLinkData":4135681},{"downLinkData":162858,"upLinkData":27124},{}]}
+
+
+Group:
+{"connections":["vijkpnsbywyk"],"creationDate":1730526192,"displayName":"Default Group","lastUpdatedDate":1730526192,"routeConfigId":"ejslopljgxii","subscriptionOption":{"address":"HIDDEN"}}
+
+
+Plugins:
+["Builtin Protocol Support","Qv2ray Core Workgroup","qvplugin_builtin_protocol","VMess, VLESS, SOCKS, HTTP, Shadowsocks, DNS, Dokodemo-door editor support"]
+["Builtin Subscription Support","Qv2ray Core Workgroup","builtin_subscription_support","Basic subscription support for Qv2ray"]
+
+
+GlobalConfig:
+{"advancedConfig":{},"autoStartBehavior":0,"autoStartId":{"groupId":"000000000000"},"config_version":14,"defaultRouteConfig":{"dnsConfig":{"servers":[{"address":"1.1.1.1"},{"address":"8.8.8.8"},{"address":"8.8.4.4"}]},"routeConfig":{"domainMatcher":"mph","domainStrategy":"AsIs","domains":{},"ips":{}}},"inboundConfig":{"socksSettings":{"port":1089}},"kernelConfig":{"v2AssetsPath_linux":"/usr/share/v2ray","v2CorePath_linux":"/usr/bin/v2ray"},"lastConnectedId":{"connectionId":"vijkpnsbywyk","groupId":"000000000000"},"logLevel":3,"networkConfig":{},"outboundConfig":{},"pluginConfig":{"pluginStates":{"builtin_subscription_support":true,"qvplugin_builtin_protocol":true}},"uiConfig":{"graphConfig":{"colorConfig":{"$0":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$1":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$2":{"value1":{"B":240,"G":210,"R":0,"style":3},"value2":{"B":42,"G":220,"R":235,"style":3}}}},"recentConnections":[{"connectionId":"vijkpnsbywyk","groupId":"000000000000"}],"theme":"kvantum"},"updateConfig":{}}
+------- END OF QV2RAY CRASH REPORT -------

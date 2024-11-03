@@ -2,18 +2,20 @@
     "vijkpnsbywyk": {
         "creationDate": 1730527005,
         "displayName": "S4-V2RAY2-ThetZinNyein",
-        "lastConnected": 1730530293,
+        "lastConnected": 1730591793,
         "lastUpdatedDate": 1730527005,
         "stats": [
             {
-                "downLinkData": 2537924744,
-                "upLinkData": 1549444
+                "downLinkData": 4276034979,
+                "upLinkData": 5084386
             },
             {
-                "downLinkData": 2537948250,
-                "upLinkData": 1502410
+                "downLinkData": 4276110240,
+                "upLinkData": 4928549
             },
             {
+                "downLinkData": 162858,
+                "upLinkData": 27124
             },
             {
             }

@@ -1,0 +1,1 @@
+import{o as r}from"./sendWindowMessage-46579fce.js";function p({event:d,filter:e,handler:a,senderWindow:n,targetOrigin:i}){r({filter:s=>{var o,t;return((o=s.data)==null?void 0:o.event)===d&&!!((t=s.data)!=null&&t.reqId)&&(!e||e(s))},handler:async s=>{const o=await(a==null?void 0:a(s));(n||window).postMessage({resId:s.data.reqId,result:o},i??"*")}})}export{p as r};

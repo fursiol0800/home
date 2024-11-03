@@ -1,0 +1,113 @@
+2024/11/03-13:19:30.910 a103 Creating DB /home/antonio/.config/thorium/Default/Sync Data/LevelDB since it was missing.
+2024/11/03-13:19:30.934 a103 Reusing MANIFEST /home/antonio/.config/thorium/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/11/03-13:21:04.886 a117 Level-0 table #5: started
+2024/11/03-13:21:04.897 a117 Level-0 table #5: 243698 bytes OK
+2024/11/03-13:21:04.911 a117 Delete type=0 #3
+2024/11/03-13:21:05.606 a116 Level-0 table #7: started
+2024/11/03-13:21:05.612 a116 Level-0 table #7: 98507 bytes OK
+2024/11/03-13:21:05.626 a116 Delete type=0 #4
+2024/11/03-13:21:05.889 a115 Level-0 table #9: started
+2024/11/03-13:21:05.896 a115 Level-0 table #9: 97927 bytes OK
+2024/11/03-13:21:05.903 a115 Delete type=0 #6
+2024/11/03-13:21:06.335 a116 Level-0 table #11: started
+2024/11/03-13:21:06.343 a116 Level-0 table #11: 98078 bytes OK
+2024/11/03-13:21:06.350 a116 Delete type=0 #8
+2024/11/03-13:21:06.681 a115 Level-0 table #13: started
+2024/11/03-13:21:06.689 a115 Level-0 table #13: 98109 bytes OK
+2024/11/03-13:21:06.697 a115 Delete type=0 #10
+2024/11/03-13:21:07.192 a102 Level-0 table #15: started
+2024/11/03-13:21:07.198 a102 Level-0 table #15: 98786 bytes OK
+2024/11/03-13:21:07.205 a102 Delete type=0 #12
+2024/11/03-13:21:07.206 a103 Compacting 4@0 + 1@1 files
+2024/11/03-13:21:07.213 a103 Generated table #16@0: 8 keys, 1808 bytes
+2024/11/03-13:21:07.213 a103 Compacted 4@0 + 1@1 files => 1808 bytes
+2024/11/03-13:21:07.220 a103 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/03-13:21:07.220 a103 Delete type=2 #7
+2024/11/03-13:21:07.220 a103 Delete type=2 #9
+2024/11/03-13:21:07.220 a103 Delete type=2 #11
+2024/11/03-13:21:07.220 a103 Delete type=2 #13
+2024/11/03-13:21:07.220 a103 Delete type=2 #15
+2024/11/03-13:21:07.492 a115 Level-0 table #18: started
+2024/11/03-13:21:07.503 a115 Level-0 table #18: 98389 bytes OK
+2024/11/03-13:21:07.510 a115 Delete type=0 #14
+2024/11/03-13:21:07.906 a115 Level-0 table #20: started
+2024/11/03-13:21:07.913 a115 Level-0 table #20: 98760 bytes OK
+2024/11/03-13:21:07.920 a115 Delete type=0 #17
+2024/11/03-13:21:08.468 a102 Level-0 table #22: started
+2024/11/03-13:21:08.478 a102 Level-0 table #22: 99085 bytes OK
+2024/11/03-13:21:08.486 a102 Delete type=0 #19
+2024/11/03-13:21:09.205 a116 Level-0 table #24: started
+2024/11/03-13:21:09.219 a116 Level-0 table #24: 98697 bytes OK
+2024/11/03-13:21:09.227 a116 Delete type=0 #21
+2024/11/03-13:21:09.227 a116 Compacting 4@0 + 1@1 files
+2024/11/03-13:21:09.236 a116 Generated table #25@0: 20 keys, 4079 bytes
+2024/11/03-13:21:09.236 a116 Compacted 4@0 + 1@1 files => 4079 bytes
+2024/11/03-13:21:09.246 a116 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/03-13:21:09.246 a116 Delete type=2 #16
+2024/11/03-13:21:09.246 a116 Delete type=2 #18
+2024/11/03-13:21:09.246 a116 Delete type=2 #20
+2024/11/03-13:21:09.246 a116 Delete type=2 #22
+2024/11/03-13:21:09.246 a116 Delete type=2 #24
+2024/11/03-13:21:09.840 a115 Level-0 table #27: started
+2024/11/03-13:21:09.847 a115 Level-0 table #27: 99141 bytes OK
+2024/11/03-13:21:09.863 a115 Delete type=0 #23
+2024/11/03-13:21:11.024 a115 Level-0 table #29: started
+2024/11/03-13:21:11.031 a115 Level-0 table #29: 98540 bytes OK
+2024/11/03-13:21:11.038 a115 Delete type=0 #26
+2024/11/03-13:21:12.501 a115 Level-0 table #31: started
+2024/11/03-13:21:12.507 a115 Level-0 table #31: 98466 bytes OK
+2024/11/03-13:21:12.514 a115 Delete type=0 #28
+2024/11/03-13:21:13.390 a115 Level-0 table #33: started
+2024/11/03-13:21:13.396 a115 Level-0 table #33: 98352 bytes OK
+2024/11/03-13:21:13.404 a115 Delete type=0 #30
+2024/11/03-13:21:13.404 a115 Compacting 4@0 + 1@1 files
+2024/11/03-13:21:13.411 a115 Generated table #34@0: 27 keys, 4963 bytes
+2024/11/03-13:21:13.411 a115 Compacted 4@0 + 1@1 files => 4963 bytes
+2024/11/03-13:21:13.418 a115 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/03-13:21:13.418 a115 Delete type=2 #25
+2024/11/03-13:21:13.418 a115 Delete type=2 #27
+2024/11/03-13:21:13.418 a115 Delete type=2 #29
+2024/11/03-13:21:13.418 a115 Delete type=2 #31
+2024/11/03-13:21:13.418 a115 Delete type=2 #33
+2024/11/03-13:21:14.795 a115 Level-0 table #36: started
+2024/11/03-13:21:14.802 a115 Level-0 table #36: 98309 bytes OK
+2024/11/03-13:21:14.810 a115 Delete type=0 #32
+2024/11/03-13:21:16.055 a115 Level-0 table #38: started
+2024/11/03-13:21:16.062 a115 Level-0 table #38: 98386 bytes OK
+2024/11/03-13:21:16.069 a115 Delete type=0 #35
+2024/11/03-13:21:17.297 a116 Level-0 table #40: started
+2024/11/03-13:21:17.303 a116 Level-0 table #40: 98222 bytes OK
+2024/11/03-13:21:17.311 a116 Delete type=0 #37
+2024/11/03-13:21:18.441 a116 Level-0 table #42: started
+2024/11/03-13:21:18.449 a116 Level-0 table #42: 98889 bytes OK
+2024/11/03-13:21:18.456 a116 Delete type=0 #39
+2024/11/03-13:21:18.457 a116 Compacting 4@0 + 1@1 files
+2024/11/03-13:21:18.466 a116 Generated table #43@0: 33 keys, 5955 bytes
+2024/11/03-13:21:18.466 a116 Compacted 4@0 + 1@1 files => 5955 bytes
+2024/11/03-13:21:18.473 a116 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/03-13:21:18.473 a116 Delete type=2 #34
+2024/11/03-13:21:18.474 a116 Delete type=2 #36
+2024/11/03-13:21:18.474 a116 Delete type=2 #38
+2024/11/03-13:21:18.474 a116 Delete type=2 #40
+2024/11/03-13:21:18.474 a116 Delete type=2 #42
+2024/11/03-13:21:19.934 a102 Level-0 table #45: started
+2024/11/03-13:21:19.942 a102 Level-0 table #45: 99967 bytes OK
+2024/11/03-13:21:19.950 a102 Delete type=0 #41
+2024/11/03-13:21:21.297 a115 Level-0 table #47: started
+2024/11/03-13:21:21.313 a115 Level-0 table #47: 98667 bytes OK
+2024/11/03-13:21:21.321 a115 Delete type=0 #44
+2024/11/03-13:21:22.231 a115 Level-0 table #49: started
+2024/11/03-13:21:22.246 a115 Level-0 table #49: 98560 bytes OK
+2024/11/03-13:21:22.254 a115 Delete type=0 #46
+2024/11/03-13:21:22.767 a102 Level-0 table #51: started
+2024/11/03-13:21:22.782 a102 Level-0 table #51: 100215 bytes OK
+2024/11/03-13:21:22.791 a102 Delete type=0 #48
+2024/11/03-13:21:22.792 a102 Compacting 4@0 + 1@1 files
+2024/11/03-13:21:22.799 a102 Generated table #52@0: 75 keys, 11130 bytes
+2024/11/03-13:21:22.799 a102 Compacted 4@0 + 1@1 files => 11130 bytes
+2024/11/03-13:21:22.807 a102 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/03-13:21:22.807 a102 Delete type=2 #43
+2024/11/03-13:21:22.807 a102 Delete type=2 #45
+2024/11/03-13:21:22.807 a102 Delete type=2 #47
+2024/11/03-13:21:22.807 a102 Delete type=2 #49
+2024/11/03-13:21:22.808 a102 Delete type=2 #51

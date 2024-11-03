@@ -1,0 +1,5 @@
+2024/11/03-13:21:22.277 a103 Creating DB /home/antonio/.config/thorium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm since it was missing.
+2024/11/03-13:21:22.289 a103 Reusing MANIFEST /home/antonio/.config/thorium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/11/03-13:22:00.885 a103 Level-0 table #5: started
+2024/11/03-13:22:00.914 a103 Level-0 table #5: 4421432 bytes OK
+2024/11/03-13:22:00.922 a103 Delete type=0 #3

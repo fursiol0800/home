@@ -3,8 +3,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1730521795408": "__default__profile__",
-            "1730459991410": "__default__profile__"
+            "1730615828805": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -16,7 +15,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1730459991410"
+                "backupFolder": "1730615828805"
             }
         ]
     },
@@ -52,13 +51,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/antonio/.config/VSCodium/Backups/1730459991410",
+            "backupPath": "/home/antonio/.config/VSCodium/Backups/1730615828805",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1080,
-                "height": 1388
+                "width": 2160,
+                "height": 1440
             }
         },
         "openedWindows": []

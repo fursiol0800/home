@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_popup": "index.html"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "assets/index-4a5d4fd8.css" ],
+      "js": [ "assets/content_scripts-loader-2e128fb2.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "MangaOT: 漫画翻译扩展",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "public/icons/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtR2M1uy08r8Yll13mZX4wSauTb/4yS0dYqEMU8E5ktPNhz8qSQJC9y/RWJIcoVBb+tz7PUlFVt782VJbdnYhocT4sxPp1TQsgq8ZoUCmDhhEN+5Cja7iyHywENUnqHd+njFF0rH06X1MYPm+SdieK6uScnX5pzv7XVuGQXzqtlBrbNl2cLO2nHDkmS0nZrr3Tpr28KxWbOue9Fy9aRBYrVxA/MuwFCoO7X3LkrybOyYZk5dDdLIttSDIZRfVZMK7m8/C6peqX3tXyF6fy5L8hP9Nf5m1d1dGwyf7XFCdOt7+CdO684GKoUHiI9WdVkSAlX69y82LfbmhGykTtcPNVQIDAQAB",
+   "manifest_version": 3,
+   "name": "MangaOT",
+   "permissions": [ "background", "storage", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.17",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "src/assets/avatar.jpg", "assets/index-321c9103.js", "assets/store-432b8213.js", "assets/content_scripts-f1a4ea7f.js" ],
+      "use_dynamic_url": false
+   } ]
+}
