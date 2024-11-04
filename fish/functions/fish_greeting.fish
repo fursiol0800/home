@@ -1,5 +1,5 @@
 function fish_greeting
-    if type -q catnap
-        catnap
+    if type -q nitch
+        nitch
     end
 end

@@ -13,7 +13,7 @@ size = "75% 60%"
 
  [scratchpads.spotify]
 animation = "fromTop"
-command = "spotify --disable-gpu"
+command = "spotify"
 class = "spotify"
 lazy = true
 size = "75% 60%"
