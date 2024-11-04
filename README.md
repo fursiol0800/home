@@ -1,4 +1,3 @@
-![Uploading Screenshot_04-Nov_12-53-42_28302.png…]()
 This is my personal config on the top of archcraft and jakoolit arch hyprland with plugin. Ags Overview support.
 
 ![Screenshot_03-Nov_20-12-41_30525](https://github.com/user-attachments/assets/b5e68bb7-4b30-435f-81ba-a9e608e1ef84)
@@ -10,3 +9,6 @@ This is my personal config on the top of archcraft and jakoolit arch hyprland wi
 ![Screenshot_03-Nov_20-07-30_30613](https://github.com/user-attachments/assets/294b6e22-ceb3-4db6-bb4b-12c0c3065771)
 ![Screenshot_03-Nov_20-07-22_2371](https://github.com/user-attachments/assets/91a3842f-448f-4c8d-8350-3b25d9a2ea24)
 ![Screenshot_03-Nov_19-43-35_17920](https://github.com/user-attachments/assets/88ce2612-eac6-4f60-a881-d2ac93bb6e22)
+
+![Screenshot_04-Nov_12-53-42_28302](https://github.com/user-attachments/assets/467b6e63-e558-4266-babe-79e527be393f)
+
