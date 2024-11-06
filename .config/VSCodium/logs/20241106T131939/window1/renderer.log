@@ -1,0 +1,5 @@
+2024-11-06 13:19:41.481 [info] Started local extension host with pid 13092.
+2024-11-06 13:19:45.279 [info] [perf] Render performance baseline is 33ms
+2024-11-06 13:19:48.169 [error] [network] #2: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2024-11-06 13:21:19.234 [info] Started local extension host with pid 14978.
+2024-11-06 13:21:21.925 [info] [perf] Render performance baseline is 32ms

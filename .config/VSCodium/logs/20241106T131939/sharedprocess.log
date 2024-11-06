@@ -1,0 +1,36 @@
+2024-11-06 13:19:53.065 [info] Getting Manifest... catppuccin.catppuccin-vsc-pack
+2024-11-06 13:19:54.781 [info] Installing extension: catppuccin.catppuccin-vsc-pack {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/antonio/.vscode-oss/extensions/extensions.json","path":"/home/antonio/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-02T15:11:51.261Z"}}
+2024-11-06 13:19:55.142 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2024-11-06 13:19:55.639 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2024-11-06 13:19:56.160 [info] Installing extension: catppuccin.catppuccin-vsc-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/antonio/.vscode-oss/extensions/extensions.json","path":"/home/antonio/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-02T15:11:51.261Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-11-06 13:19:56.161 [info] Installing extension: catppuccin.catppuccin-vsc {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/antonio/.vscode-oss/extensions/extensions.json","path":"/home/antonio/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-02T15:11:51.261Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-11-06 13:19:57.560 [info] Extracted extension to file:///home/antonio/.vscode-oss/extensions/catppuccin.catppuccin-vsc-pack-1.0.2-universal: catppuccin.catppuccin-vsc-pack
+2024-11-06 13:19:57.569 [info] Renamed to /home/antonio/.vscode-oss/extensions/catppuccin.catppuccin-vsc-pack-1.0.2-universal
+2024-11-06 13:19:57.656 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/antonio/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/antonio/.vscode-oss/extensions/extensions.json.vsctmp'
+    at um.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44058)
+    at Ei (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44165)
+    at Fn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:28542)
+    at Fn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:20509)
+    at async Zl.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:101684)
+    at async Gl.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:79904)
+2024-11-06 13:19:57.963 [info] Extracted extension to file:///home/antonio/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.15.2-universal: catppuccin.catppuccin-vsc
+2024-11-06 13:19:57.970 [info] Renamed to /home/antonio/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.15.2-universal
+2024-11-06 13:19:58.054 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/antonio/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/antonio/.vscode-oss/extensions/extensions.json.vsctmp'
+    at um.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44058)
+    at Ei (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44165)
+    at Fn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:28542)
+    at Fn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:20509)
+    at async Zl.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:101684)
+    at async Gl.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:79904)
+2024-11-06 13:20:01.821 [info] Extracted extension to file:///home/antonio/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.17.0-universal: catppuccin.catppuccin-vsc-icons
+2024-11-06 13:20:01.836 [info] Renamed to /home/antonio/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.17.0-universal
+2024-11-06 13:20:01.862 [info] Extension installed successfully: catppuccin.catppuccin-vsc-pack vscode-userdata:/home/antonio/.vscode-oss/extensions/extensions.json
+2024-11-06 13:20:01.862 [info] Extension installed successfully: catppuccin.catppuccin-vsc vscode-userdata:/home/antonio/.vscode-oss/extensions/extensions.json
+2024-11-06 13:20:01.863 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons vscode-userdata:/home/antonio/.vscode-oss/extensions/extensions.json
+2024-11-06 13:20:01.926 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/antonio/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/antonio/.vscode-oss/extensions/extensions.json.vsctmp'
+    at um.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44058)
+    at Ei (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44165)
+    at Fn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:28542)
+    at Fn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:20509)
+    at async Zl.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:101684)
+    at async Gl.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:79904)
