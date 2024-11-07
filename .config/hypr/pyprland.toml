@@ -13,7 +13,6 @@ size = "75% 60%"
 
  [scratchpads.spotify]
 animation = "fromTop"
-command = "spotify"
+command = "Spotify"
 class = "spotify"
-lazy = true
 size = "75% 60%"
