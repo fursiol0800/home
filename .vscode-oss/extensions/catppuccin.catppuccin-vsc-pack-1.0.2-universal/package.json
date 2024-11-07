@@ -1,0 +1,52 @@
+{
+	"name": "catppuccin-vsc-pack",
+	"description": "Soothing pastel theme pack for VSCode",
+	"version": "1.0.2",
+	"displayName": "Catppuccin Pack",
+	"publisher": "catppuccin",
+	"icon": "icon.png",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/catppuccin/vscode.git",
+		"directory": "packages/catppuccin-vsc-pack"
+	},
+	"engines": {
+		"vscode": "^1.70.0",
+		"node": ">=20.0.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"Catppuccin.catppuccin-vsc",
+		"Catppuccin.catppuccin-vsc-icons"
+	],
+	"devDependencies": {
+		"@vscode/vsce": "^2.24.0"
+	},
+	"scripts": {
+		"pack:build": "vsce package --no-dependencies --out catppuccin-vsc-pack.vsix"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/catppuccin/vscode/tree/main/packages/catppuccin-vsc-pack#readme",
+	"bugs": {
+		"url": "https://github.com/catppuccin/vscode/issues"
+	},
+	"sponsor": {
+		"url": "https://opencollective.com/catppuccin"
+	},
+	"__metadata": {
+		"id": "27c20910-92b3-4f79-936a-d2e8470376d8",
+		"publisherId": "e7d2ed61-53e0-4dd4-afbe-f536c3bb4316",
+		"publisherDisplayName": "Catppuccin",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1730875797542,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}
