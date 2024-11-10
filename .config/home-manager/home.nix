@@ -8,15 +8,29 @@
   #nixGL.installScripts = [ "mesa" "nvidiaPrime" ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
+  imports = [
+      <catppuccin/modules/home-manager>
+      ./scripts/scripts.nix
+  ];
+
   home.username = "antonio";
   home.homeDirectory = "/home/antonio";
+  catppuccin.enable = true;
+  catppuccin.flavor = "mocha";
   #programs.stylix.enable = true;
-programs.wezterm = {
-  enable = true;
-  enableZshIntegration = true;
-  enableBashIntegration = true;
-  extraConfig = builtins.readFile ../wezterm/wezterm.lua;
-};
+  #programs.wezterm = {
+ # enable = true;
+ # enableZshIntegration = true;
+ # enableBashIntegration = true;
+ # extraConfig = builtins.readFile ../wezterm/wezterm.lua;
+#};
+
+# wayland.windowManager.hyprland ={
+ #     enable = true;
+      #plugins = [
+      #      hyprland-plugins.packages.${pkgs.stdenv.hostPlatform.system}.borders-plus-plus
+      #];
+ #};
 
 # programs.spicetify =
    #let
@@ -33,7 +47,7 @@ programs.wezterm = {
 #     colorScheme = "mocha";
   # };
 
-  xdg.mimeApps.enable = true;
+  #xdg.mimeApps.enable = true;
   #xdg.mimeApps.associations.added = associations;
   #xdg.mimeApps.defaultApplications = associations;
   #theme.package = pkgs.catppuccin-gtk-theme;
@@ -43,7 +57,8 @@ programs.wezterm = {
 # };
 
 #inputs.spicetify-nix.homeManagerModules.default
-#  wayland.windowManager.hyprland = {
+# 
+#wayland.windowManager.hyprland = {
 #      enable = true;
       #plugins = [
       #   inputs.hyprland-plugins.packages.${pkgs.system}.borders-plus-plus
@@ -61,15 +76,16 @@ programs.wezterm = {
   # You should not change this value, even if you update Home Manager. If you do
   # want to update the value, then make sure to first check the Home Manager
   # release notes.
-  home.stateVersion = "24.05"; # Please read the comment before changing.
+  home.stateVersion = "24.11"; # Please read the comment before changing.
   gtk = {
+    #enable = true;
     iconTheme = {
       name = "Papirus-Dark";
       packages = pkgs.papirus-icon-theme;
 
     };
-    theme.packages = pkgs.catppuccin-gtk-theme;
-    theme.name = "catppuccin-gtk-theme";
+    theme.packages = pkgs.catppuccin-gtk;
+    theme.name = "Catppuccin-Dark";
     gtk3.extraConfig = {
       gtk-application-prefer-dark-theme = 1;
     };
@@ -93,14 +109,25 @@ programs.wezterm = {
     pkgs.hyprgui
     pkgs.htop
     pkgs.fortune
-    (config.lib.nixGL.wrapOffload pkgs.freecad)
-    (config.lib.nixGL.wrappers.nvidiaPrime pkgs.xonotic)
-    pkgs.hyprlandPlugins.borders-plus-plus
+    #(config.lib.nixGL.wrapOffload pkgs.freecad)
+    #(config.lib.nixGL.wrappers.nvidiaPrime pkgs.xonotic)
+    #pkgs.hyprlandPlugins.borders-plus-plus
+    #pkgs.hyprlandPlugins.hy3
+    #pkgs.hyprlandPlugins.hyprtrails
     pkgs.tmux
-    pkgs.maxfetch
-    pkgs.catppuccin
+    #pkgs.maxfetch
+    #pkgs.catppuccin
     pkgs.vlc
     pkgs.zellij
+    pkgs.lazygit
+    pkgs.lazydocker
+    pkgs.appimage-run
+    pkgs.imv
+    pkgs.qimgv
+    pkgs.catppuccin-gtk
+    pkgs.tokyonight-gtk-theme
+    #pkgs.zen-browser
+    #pkgs.chaotic.firefox-nightly
     #pkgs.spicetify
     #pkgs.nix-alien
     # # It is sometimes useful to fine-tune packages, for example, by applying
