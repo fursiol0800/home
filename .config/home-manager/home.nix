@@ -24,6 +24,11 @@
  # enableBashIntegration = true;
  # extraConfig = builtins.readFile ../wezterm/wezterm.lua;
 #};
+  # wayland.windowManager.hyprland.enable = true; # enable Hyprland
+   wayland.windowManager.hyprland.plugins = [
+        pkgs.hyprlandPlugins.borders-plus-plus
+        #"/nix/store/borders-plus-plus/lib/libborders-plus-plus.so"
+   ];
 
 # wayland.windowManager.hyprland ={
  #     enable = true;
@@ -79,6 +84,8 @@
   home.stateVersion = "24.11"; # Please read the comment before changing.
   gtk = {
     #enable = true;
+    cursorTheme.packages = pkgs.rose-pine-cursor;
+    cursorTheme.name = "rose-pine-cursor";
     iconTheme = {
       name = "Papirus-Dark";
       packages = pkgs.papirus-icon-theme;
@@ -106,9 +113,11 @@
     # # "Hello, world!" when run.
     # pkgs.hello
     #pkgs.nvf
-    pkgs.hyprgui
+    #pkgs.hyprgui
     pkgs.htop
     pkgs.fortune
+    #pkgs.hyprpanel
+    #pkgs.matugen
     #(config.lib.nixGL.wrapOffload pkgs.freecad)
     #(config.lib.nixGL.wrappers.nvidiaPrime pkgs.xonotic)
     #pkgs.hyprlandPlugins.borders-plus-plus
@@ -126,6 +135,8 @@
     pkgs.qimgv
     pkgs.catppuccin-gtk
     pkgs.tokyonight-gtk-theme
+    pkgs.sweet-folders
+    #pkgs.matugen
     #pkgs.zen-browser
     #pkgs.chaotic.firefox-nightly
     #pkgs.spicetify
