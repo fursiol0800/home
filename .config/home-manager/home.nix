@@ -24,11 +24,18 @@
  # enableBashIntegration = true;
  # extraConfig = builtins.readFile ../wezterm/wezterm.lua;
 #};
-  # wayland.windowManager.hyprland.enable = true; # enable Hyprland
-   wayland.windowManager.hyprland.plugins = [
-        pkgs.hyprlandPlugins.borders-plus-plus
-        #"/nix/store/borders-plus-plus/lib/libborders-plus-plus.so"
-   ];
+  # wayland.windowManager.hyprland = {
+
+   #  enable = true;
+     #source = {../hypr/hyprland.conf}'
+
+ 
+   #}; # enable Hyprland
+   #wayland.windowManager.hyprland.plugins = [
+    #    pkgs.hyprlandPlugins.borders-plus-plus
+   #     pkgs.hyprlandPlugins.hy3
+        #"/nix/store/9v6ggcxblwmsy65qwmj1plw2rcnrdcbw-borders-plus-plus-0.44.0/lib/libborders-plus-plus.so"        #"/nix/store/hyprbars"
+   #];
 
 # wayland.windowManager.hyprland ={
  #     enable = true;
@@ -116,6 +123,7 @@
     #pkgs.hyprgui
     pkgs.htop
     pkgs.fortune
+    #pkgs.bob
     #pkgs.hyprpanel
     #pkgs.matugen
     #(config.lib.nixGL.wrapOffload pkgs.freecad)
@@ -124,6 +132,8 @@
     #pkgs.hyprlandPlugins.hy3
     #pkgs.hyprlandPlugins.hyprtrails
     pkgs.tmux
+    pkgs.helix
+    pkgs.topgrade
     #pkgs.maxfetch
     #pkgs.catppuccin
     pkgs.vlc
@@ -136,6 +146,11 @@
     pkgs.catppuccin-gtk
     pkgs.tokyonight-gtk-theme
     pkgs.sweet-folders
+    pkgs.bat
+    #pkgs.cargo
+    pkgs.rustup
+    pkgs.gparted
+    pkgs.xorg.xhost
     #pkgs.matugen
     #pkgs.zen-browser
     #pkgs.chaotic.firefox-nightly
