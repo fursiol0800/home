@@ -86,7 +86,8 @@
       "left": [
         "dashboard",
         "windowtitle",
-        "media"
+        "media",
+        "hyprsunset"
       ],
       "middle": [
         "notifications",
@@ -544,7 +545,7 @@
   "theme.bar.buttons.icon_background": "#242438",
   "theme.bar.buttons.background": "#242438",
   "theme.bar.buttons.style": "default",
-  "theme.bar.background": "#11111b",
+  "theme.bar.background": "#1e1e2e",
   "theme.osd.label": "#b4beff",
   "theme.osd.icon": "#11111b",
   "theme.osd.bar_overflow_color": "#f38ba7",
@@ -590,7 +591,7 @@
   "theme.bar.menus.menu.network.switch.disabled": "#313245",
   "theme.bar.menus.menu.network.switch.puck": "#454759",
   "theme.bar.buttons.systray.customIcon": "#cdd6f4",
-  "theme.bar.border.color": "#b4befe",
+  "theme.bar.border.color": "#f5c2e7",
   "theme.bar.menus.menu.media.timestamp": "#cdd6f4",
   "theme.bar.buttons.borderColor": "#b4befe",
   "theme.bar.border.width": "0.1em",
@@ -600,5 +601,8 @@
   "theme.matugen_settings.mode": "dark",
   "theme.matugen_settings.scheme_type": "rainbow",
   "theme.matugen_settings.variation": "standard_1",
-  "bar.workspaces.applicationIconFallback": ""
+  "bar.workspaces.applicationIconFallback": "",
+  "menus.media.displayTime": true,
+  "menus.media.displayTimeTooltip": true,
+  "tear": true
 }
