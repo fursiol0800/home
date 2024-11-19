@@ -26,8 +26,12 @@ done
 ags -q
 
 sleep 0.3
+
+hyprpanel -q
+
+sleep 0.3
 #Restart waybar
-#waybar &
+#statusbar &
 
 # relaunch swaync
 sleep 0.5

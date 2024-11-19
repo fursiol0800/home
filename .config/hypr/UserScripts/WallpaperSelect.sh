@@ -3,7 +3,7 @@
 # This script for selecting wallpapers (SUPER W)
 
 # WALLPAPERS PATH
-wallDIR="$HOME/Pictures/wallpapers"
+wallDIR="$HOME/Pictures/gowall"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
 
 # variables

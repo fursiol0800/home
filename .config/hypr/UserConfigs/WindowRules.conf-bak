@@ -69,7 +69,7 @@ windowrulev2 = workspace 5, class:^([Ll]utris|[Mm]pv)$
 windowrulev2 = workspace 3 silent, class:^([Dd]iscord|[Ww]ebCord|[Vv]esktop)$
 windowrulev2 = workspace 7, class:^([Ff]erdium)$
 windowrulev2 = workspace 7, class:^([Ww]hatsapp-for-linux|[Vv]scodium)$
-windowrulev2 = workspace 5 silent, title:VSCodium
+windowrulev2 = workspace 7 silent, title:VSCodium
 # windowrule v2 move to workspace (silent)
 windowrulev2 = workspace 6 silent, class:^(virt-manager)$
 windowrulev2 = workspace 9 silent, class:^([Aa]udacious)$

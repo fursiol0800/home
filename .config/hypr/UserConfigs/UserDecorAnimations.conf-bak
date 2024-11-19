@@ -115,22 +115,6 @@ decoration {
     blur {
         special = true
     }
-    shadow {
-      enabled = false
-      range = 10
-      render_power = 10
-      color = rgba(000000FF)
-      sharp = true
-      #offset = 10, 10
-      #col.shadow = rgba (000000FF)
-      #shadow_range = 30
-    }
-    #shadow_enabled =true
-    #col.shadow = rgba(000000FF)
-    #shadow_range = 30
-    #shadow_ignore_window = false
-    #shadow_render_power = 4
-    #drop_shadow = false
 }
 
 plugin {
@@ -149,3 +133,5 @@ plugin {
         natural_rounding = yes
     }
 }
+
+

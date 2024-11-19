@@ -2,7 +2,7 @@
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # Script for Random Wallpaper ( CTRL ALT W)
 
-wallDIR="$HOME/Pictures/wallpapers"
+wallDIR="$HOME/Pictures/gowall"
 scriptsDir="$HOME/.config/hypr/scripts"
 
 focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
