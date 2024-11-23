@@ -11,15 +11,43 @@
     hyprpanel.url = "github:Jas-SinghFSU/HyprPanel";
     wezterm.url = "github:wez/wezterm?dir=nix";
     catppuccin.url = "github:catppuccin/nix";
-  };
-
-  outputs = inputs @ { nixpkgs, home-manager, hyprpanel, catppuccin, ... }:
+    hyprland.url = "github:hyprwm/Hyprland";
+    hyprland-plugins = {
+      url = "github:hyprwm/hyprland-plugins";
+      inputs.hyprland.follows = "hyprland";
+    };
+    spicetify-nix = {
+      url = "github:Gerg-L/spicetify-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    ags = {
+        url = "github:aylur/ags";
+        inputs.nixpkgs.follows = "nixpkgs";
+     };
+    astal = {
+      url = "github:aylur/astal";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    zen-browser.url = "github:MarceColl/zen-browser-flake";
+     nvchad4nix = {
+        url = "github:MOIS3Y/nvchad4nix";
+        inputs.nixpkgs.follows = "nixpkgs";
+    };
+    nvchad-on-steroids = {  # <- here
+      url = "github:maotseantonio/nvchad_config";
+      flake = false;
+    };
+   };
+  outputs = inputs @ { nixpkgs, home-manager, hyprpanel, catppuccin, hyprland, ... }:
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs {
         inherit system;
         overlays = [
           inputs.hyprpanel.overlay
+          (final: prev: {
+        nvchad = inputs.nvchad4nix.packages."${pkgs.system}".nvchad;
+      })
         ];
       };
 
@@ -32,6 +60,12 @@
         modules = [ 
         ./home.nix 
         catppuccin.homeManagerModules.catppuccin
+        {
+          wayland.windowManager.hyprland = {
+            enable = true;
+            package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+          };
+        }
         ];
         extraSpecialArgs = { inherit inputs; };
         # Optionally use extraSpecialArgs
@@ -39,3 +73,6 @@
       };
     };
 }
+
+
+
