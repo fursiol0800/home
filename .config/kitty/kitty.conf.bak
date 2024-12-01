@@ -4,12 +4,12 @@ font_family      JetBrainsMono Nerd Font
 bold_font        JetBrainsMono Nerd Font
 italic_font      JetBrainsMono Nerd Font
 bold_italic_font JetBrainsMono Nerd Font
-font_size 14.5
+font_size 13.5
 modify_font cell_height 118%
 
 # Theme
 #include themes/catppuccin-macchiato.conf
-startup_session launch.conf
+#startup_session launch.conf
 # Window layout
 enabled_layouts *
 window_resize_step_cells 2
@@ -111,20 +111,20 @@ map kitty_mod+n     set_tab_title
 map kitty_mod+l next_layout
 
 # Font sizes
-map kitty_mod+equal  change_font_size all +1.0
-map kitty_mod+plus   change_font_size all +1.0
-map kitty_mod+kp_add change_font_size all +1.0
-map cmd+plus         change_font_size all +1.0
-map cmd+equal        change_font_size all +1.0
-map shift+cmd+equal  change_font_size all +1.0
+map kitty_mod+equal  change_font_size 11all +1.0
+map kitty_mod+plus   change_font_size 11all +1.0
+map kitty_mod+kp_add change_font_size 11all +1.0
+map cmd+plus         change_font_size 11all +1.0
+map cmd+equal        change_font_size 11all +1.0
+map shift+cmd+equal  change_font_size 11all +1.0
 
-map kitty_mod+minus       change_font_size all -1.0
-map kitty_mod+kp_subtract change_font_size all -1.0
-map cmd+minus             change_font_size all -1.0
-map shift+cmd+minus       change_font_size all -1.0
+map kitty_mod+minus       change_font_size 11all -1.0
+map kitty_mod+kp_subtract change_font_size 11all -1.0
+map cmd+minus             change_font_size 11all -1.0
+map shift+cmd+minus       change_font_size 11all -1.0
 
-map kitty_mod+backspace change_font_size all 0
-map cmd+0               change_font_size all 0
+map kitty_mod+backspace change_font_size 11all 0
+map cmd+0               change_font_size 11all 0
 
 
 # Others
@@ -139,7 +139,7 @@ map kitty_mod+g kitty_scrollback_nvim --config ksb_builtin_last_cmd_output
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Macchiato
+# Tokyo Night Storm
 include current-theme.conf
 # END_KITTY_THEME
 
