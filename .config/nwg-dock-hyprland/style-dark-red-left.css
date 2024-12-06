@@ -1,25 +1,27 @@
 window {
     background: rgba(30, 30, 46, 0.8);
     /*	background: #B1AAB8;*/
-    border-radius: 30px;
+    border-radius: 20px;
     border-style: solid;
-    border-width: 3.5px;
+    border-width: 1.5px;
     /*	border-width:0px;*/
     /*	border-color: #947A86;*/
-    border-color: rgba(245, 194, 231, 1);
+    border-color: #f5c2e7;
     /*	border-bottom: none;*/
-    /* border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px; */
+    /*border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;*/
     /*	border-color: #B1ABB9;*/
 }
 
 #box {
     /* Define attributes of the box surrounding icons here */
-    padding: 8px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 2px;
     margin-right: 2px;
-    margin-bottom: 4px;
-    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 #active {
@@ -35,14 +37,14 @@ button, image {
     background: none;
     border-style: none;
     box-shadow: none;
-    color: #f38ba8;
+    color: #e64553;
 }
 
 button {
     padding: 4px;
     margin-left: 4px;
     margin-right: 4px;
-    color: #f38ba8;
+    color: #e64553;
     font-size: 12px;
 }
 
