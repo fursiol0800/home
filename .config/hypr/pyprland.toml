@@ -16,8 +16,3 @@ command = "spotify"
 class = "spotify"
 size = "75% 60%"
 
-[scratchpads.nixy]
-animation = "fromTop"
-command = "kitty --class kitty-dropterm -e nixy"
-class = "kitty-dropterm"
-size = "75% 60%"
