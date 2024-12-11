@@ -1,0 +1,72 @@
+# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
+# Sourcing external config files
+
+# Default Configs
+$configs = $HOME/.config/hypr/configs
+
+source=$configs/Settings.conf
+source=$configs/Keybinds.conf
+
+# User Configs
+$UserConfigs = $HOME/.config/hypr/UserConfigs
+
+source= $UserConfigs/Startup_Apps.conf
+source= $UserConfigs/ENVariables.conf
+source= $UserConfigs/Monitors.conf
+source= $UserConfigs/Laptops.conf
+source= $UserConfigs/LaptopDisplay.conf
+source= $UserConfigs/WindowRules.conf
+source= $UserConfigs/UserDecorAnimations.conf
+source= $UserConfigs/UserKeybinds.conf
+source= $UserConfigs/UserSettings.conf
+source= $UserConfigs/WorkspaceRules.conf
+source= $HOME/.config/hypr/themes/mocha.conf
+#plugin = /nix/store/fqdh8mh4ww5qwnsczp4ngf6zbd5n4av8-borders-plus-plus-0.1/lib/libborders-plus-plus.so
+#plugin = /nix/store/fqdh8mh4ww5qwnsczp4ngf6zbd5n4av8-borders-plus-plus-0.1/lib/libborders-plus-plus.so 
+#plugin = /nix/store/rxxs8jgcfbl2qx5rc9p9zgzc14vs8k2s-borders-plus-plus-0.1/lib/libborders-plus-plus.so
+#chromakey_background = rgb(07121b)
+
+animations {
+    first_launch_animation = true
+    enabled = true
+}
+
+input {
+
+    touchpad {
+        tap-to-click = true
+        disable_while_typing = true
+    natural_scroll = false
+    }
+
+}
+
+gestures {
+    workspace_swipe = true
+    workspace_swipe_fingers = 3
+}
+
+misc {
+    font_family = JetBrainsMono Nerd Font
+}
+
+xwayland {
+    enabled = true
+    force_zero_scaling = true
+    use_nearest_neighbor = true
+}
+
+opengl {
+    nvidia_anti_flicker = true
+}
+
+cursor {
+    no_hardware_cursors = true
+    enable_hyprcursor = true
+    sync_gsettings_theme = true
+}
+
+#decoration {
+#    drop_shadow = true
+#    shadow_range = 5
+#}
