@@ -34,12 +34,13 @@ sleep 0.3
 #statusbar &
 
 # relaunch swaync
-sleep 0.5
-swaync > /dev/null 2>&1 &
+#sleep 0.5
+#swaync > /dev/null 2>&1 &
 
 # relaunch ags
 ags &
 hyprpanel &
+
 
 # Relaunching rainbow borders if the script exists
 #sleep 1
