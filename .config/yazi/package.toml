@@ -7,7 +7,7 @@ deps = [{ use = "imsi32/yatline-githead", rev = "a6377a8" }
  # { use = "yazi-rs/plugins:smart-filter", rev = "49137fe" },
 #  { use = "yazi-rs/plugins:hide-preview", rev = "49137fe" },
 #  { use = "yazi-rs/plugins:git", rev = "49137fe" },
-]
+, { use = "AnirudhG07/rich-preview", rev = "8be4d27" }, { use = "GianniBYoung/rsync", rev = "3f431aa" }, { use = "Rolv-Apneseth/starship", rev = "247f49d" }, { use = "dedukun/relative-motions", rev = "df97039" }]
 
 [flavor]
 deps = []

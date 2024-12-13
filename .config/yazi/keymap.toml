@@ -2,6 +2,10 @@
 
 [manager]
 
+[[manager.prepend_keymap]]
+on = [ "m" ]
+run = "plugin relative-motions"
+desc = "Trigger a new relative motion"
 prepend_keymap = [
   { on = [
     "<C-s>",
@@ -50,6 +54,8 @@ prepend_keymap = [
     "yank",
   ], desc = "yank files and copy to clipboard" },
   { on = "A", run = "create --dir", desc = "Create a dir" },
+  {on = ["L"], run = "plugin ouch --args=zip", desc = "Compress with ouch"},
+{on   = "R", run  = "plugin rsync", desc = "Copy files using rsync"},
 ]
 
 append_keymap = [
@@ -98,3 +104,4 @@ prepend_keymap = [
   { on = "<C-k>", run = "arrow -1", desc = "Move cursor up" },
   { on = "<C-j>", run = "arrow 1", desc = "Move cursor down" },
 ]
+

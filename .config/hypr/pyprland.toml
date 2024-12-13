@@ -16,3 +16,5 @@ command = "spotify"
 class = "spotify"
 size = "75% 60%"
 
+
+
