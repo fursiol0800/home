@@ -1,30 +1,36 @@
 local wezterm = require 'wezterm'
 local act = wezterm.action
 local gpus = wezterm.gui.enumerate_gpus()
-
+local font_family = 'CaskaydiaCove Nerd Font'
+--local font_family = 'IosevkaTermSlab Nerd Font'
+local tabline = wezterm.plugin.require("https://github.com/michaelbrusegard/tabline.wez")
+--local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm")
+--bar.apply_to_config(config)
 return {
   enable_wayland = true,
   prefer_egl = true,
+  font_size = 16,
+  font = wezterm.font({family = font_family,}),
   front_end = "WebGpu",
   webgpu_preferred_adapter = gpus[0],
   color_scheme = 'Catppuccin Mocha',
+  default_cursor_style = "BlinkingBar",
+  cursor_blink_rate = 600,
+  cursor_thickness = '1.2pt',
   enable_tab_bar = false,
-  inactive_pane_hsb = {
-    saturation = 0.9,
-    brightness = 0.7,
-  },
-  -- enable_scroll_bar = true,
+  --tab_bar_color = "#1e1e2e",
+
   background = {
     {
       source = {
-        Color="#1E1E2E"
+        Color="#181825"
       },
       height = "100%",
       width = "100%",
     },
     {
       source = {
-        File = '/home/antonio/.config/wezterm/nixos.png',
+        File = '/home/antonio/.config/hypr/wallpaper_effects/.wallpaper_current',
       },
       opacity = 0.02,
       vertical_align = "Middle",
