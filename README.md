@@ -1,7 +1,14 @@
- Ags Overview support. switch starship to oh-my-posh. Major Change. Now i currently move to nixos and this config is for my nixos system. Plugin support.
-
-![Screenshot_14-Nov_12-41-08_18069](https://github.com/user-attachments/assets/c362a09b-5b81-4b6f-9979-4127407856e4)
-![Screenshot_14-Nov_12-41-03_24539](https://github.com/user-attachments/assets/b57887ba-b430-42c8-a041-653cdf2ec998)
-![Screenshot_14-Nov_12-40-48_14402](https://github.com/user-attachments/assets/d2110b10-e5dc-4e71-9b22-df0fef9379ee)
+ Ags Overview support. Major Change. Now i currently move to nixos and this config is for my nixos system. Plugin support.
 
 
+### 🖼️ Gallery
+
+<p align="center">
+   <img src="./.github/screenshots/1.png" style="margin-bottom: 10px;"/> <br>
+   <img src="./.github/screenshots/2.png" style="margin-bottom: 10px;"/> <br>
+   <img src="./.github/screenshots/3.png" style="margin-bottom: 10px;"/> <br>
+   <img src="./.github/screenshots/4.png" style="margin-bottom: 10px;"/> <br>
+   <img src="./.github/screenshots/5.png" style="margin-bottom: 10px;"/> <br> 
+   <img src="./.github/screenshots/hyprlock.png" style="margin-bottom: 10px;"/> <br>
+   Screenshots last updated <b>2024-12-21</b>
+</p>
