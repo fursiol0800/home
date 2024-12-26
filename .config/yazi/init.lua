@@ -28,6 +28,10 @@ local catppuccin_palette = {
 }
 
 -- Plugins
+
+require("smart-enter"):setup {
+	open_multi = true,
+}
 require("starship"):setup()
 require("full-border"):setup({
 	type = ui.Border.ROUNDED,

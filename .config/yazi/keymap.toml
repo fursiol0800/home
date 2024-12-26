@@ -7,9 +7,8 @@ on = [ "m" ]
 run = "plugin relative-motions"
 desc = "Trigger a new relative motion"
 prepend_keymap = [
-  { on = [
-    "<C-s>",
-  ], run = '''shell "$SHELL" --block --confirm''', desc = "Open shell here" },
+{on = ["l",], run = "plugin smart-enter", desc = "Enter the Child directory"},
+  { on = [    "<C-s>",  ], run = '''shell "$SHELL" --block --confirm''', desc = "Open shell here" },
   { on = [
     "c",
     "a",
